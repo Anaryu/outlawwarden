@@ -1,0 +1,41 @@
+{
+    "uid": "E6C77BB83BF6A34E7E0B2B44BE8B31199E94",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Warden",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "E6C77BB83BF6A34E7E0B2B44BE8B31199E94",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Warden",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "Package1_2",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "E6C77BB83BF6A34E7E0B2B44BE8B31199E94"
+        },
+        "order": 1
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

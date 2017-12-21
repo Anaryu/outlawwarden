@@ -1,0 +1,56 @@
+{
+    "uid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Robo",
+        "type": "data_record",
+        "category": "characters",
+        "id": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "localizableStrings": {
+            "00E38FC817FB6743406B842402B6B52C92AB": {
+                "t": "",
+                "d": null
+            },
+            "E9888FFE7317844C643976E41A7FB1C0B3C6": {
+                "t": "Robo",
+                "d": null
+            },
+            "306E3B6811937645E51ACA52650157DBEC71": {
+                "t": "Line 1\nLine 2\nLine 3\nLine 4\nLine 5\nLine 6",
+                "d": {
+                    "cid": "8A6C7AAB5B659643CE0A60F7F43A774A0CAF",
+                    "eid": "EC88F160163CE541F82B0308412D8606EAF6"
+                }
+            }
+        },
+        "data": {
+            "name": {
+                "lcId": "E9888FFE7317844C643976E41A7FB1C0B3C6",
+                "defaultText": "Robo"
+            },
+            "textColor": {
+                "red": 212,
+                "green": 167,
+                "blue": 255,
+                "alpha": 255
+            },
+            "defaultExpressionId": "63F6E63D30C2834ACA8812E62D502D4B1994",
+            "timeTalkingToVoiceVolume": true,
+            "talkingVolume": 5,
+            "lipSyncSensitivity": 1,
+            "breathIntensity": 1,
+            "idleIntensity": 1,
+            "params": [],
+            "index": "70A98EDF778EC4466F6BC953EB49DDD83E8A"
+        },
+        "order": 5
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

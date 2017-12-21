@@ -10,39 +10,10 @@
         "order": 0,
         "commands": [
             {
-                "id": "gs.PlayMusic",
-                "params": {
-                    "music": {
-                        "name": "Tutorial_-_Good_Mood",
-                        "volume": 100,
-                        "playbackRate": 100
-                    },
-                    "fadeInDuration": 0,
-                    "playTime": {
-                        "min": 10,
-                        "max": 30
-                    },
-                    "playRange": {
-                        "start": 10,
-                        "end": 20
-                    },
-                    "playType": 0,
-                    "fieldFlags": {
-                        "music.volume": 1,
-                        "music.playbackRate": 1,
-                        "fadeInDuration": 1
-                    },
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "indent": 0
-            },
-            {
                 "id": "vn.ChangeBackground",
                 "params": {
                     "graphic": {
-                        "name": "Bench_Morning",
+                        "name": "GrassMazePool",
                         "hue": 0,
                         "opacity": 255,
                         "blending": 0,
@@ -92,6 +63,62 @@
                 },
                 "indent": 0,
                 "uid": "11CAF4887C77414E518B4FF5B4C99FAC4BD8",
+                "expanded": false
+            },
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "graphic": {
+                        "name": "DemonicWorld",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "layer": 1,
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 0,
+                        "origin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "loopVertical": 1,
+                        "loopHorizontal": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    },
+                    "viewport": {
+                        "type": "scene"
+                    }
+                },
+                "indent": 0,
+                "uid": "EEF877DC4537A3466A2B24A78485DF999027",
                 "expanded": false
             },
             {
@@ -312,7 +339,7 @@
                     },
                     "message": {
                         "lcId": "9DB3C2430284574DB94978D6C8E1AB974ACB",
-                        "defaultText": "Good morning Aki, {W:1000} fancy meeting you in a place like this!"
+                        "defaultText": "Good morning Aki,{W:200} fancy meeting you in a place like this!"
                     },
                     "position": 0,
                     "characterId": "8A6C7AAB5B659643CE0A60F7F43A774A0CAF",
@@ -458,7 +485,7 @@
                     },
                     "message": {
                         "lcId": "A89C81001E5FD748873B07555EC1D1EA07CF",
-                        "defaultText": "Well, {W:100} yeah, but it's always so hard to start up a conversation with you."
+                        "defaultText": "Well,{W:100} yeah, but it's always so hard to start up a conversation with you."
                     },
                     "position": 0,
                     "characterId": "8A6C7AAB5B659643CE0A60F7F43A774A0CAF",
@@ -603,8 +630,8 @@
                         }
                     },
                     "message": {
-                        "lcId": "28EC409A14EA994BC72B0302DAC0C9A88E91",
-                        "defaultText": "Tell you what, {w:100} tomorrow I'll bring a home made breakfast and we can get here twenty minutes early and eat it together and talk.\nHow does that sound?"
+                        "lcId": "1AEC689C4A1E9042853BC8869C64DC6127A9",
+                        "defaultText": "Tell you what,{w:100} tomorrow I'll bring a home made breakfast and we can get here twenty minutes early and eat it together and talk.\nHow does that sound?"
                     },
                     "position": 0,
                     "characterId": "378D0AAC0EC0B8450F2ACC5139B30033BA25",
@@ -691,6 +718,269 @@
                 "indent": 0,
                 "uid": "DA4BD12C76A5E147B8196AF0EB34DAC31A4F",
                 "expanded": true
+            },
+            {
+                "id": "vn.L2DExitScene",
+                "params": {
+                    "characterId": "8A6C7AAB5B659643CE0A60F7F43A774A0CAF",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "indent": 0,
+                "uid": "A912439A5DA5A4432F19F0B20BA75093F556"
+            },
+            {
+                "id": "vn.L2DExitScene",
+                "params": {
+                    "characterId": "378D0AAC0EC0B8450F2ACC5139B30033BA25",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "indent": 0,
+                "uid": "8C29CC4924BD5140072A5CE44EAACF4F89DC"
+            },
+            {
+                "id": "gs.WaitCommand",
+                "params": {
+                    "time": 24
+                },
+                "indent": 0,
+                "uid": "E9EE438D052DA242EE38C841482ACD7222A6"
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 9,
+                    "expressionId": null,
+                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 1,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 767,
+                        "y": 93,
+                        "angle": 0,
+                        "zoom": 1,
+                        "horizontalFlip": false,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "motionBlur.enabled": 1,
+                        "origin": 0,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "77C2ADD7880E364E962A2C90334BA41DAC85",
+                        "defaultText": "This is my first line, it had better count."
+                    },
+                    "position": 0,
+                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "95C0DB7A8C36E2459C3B76B0DFE9ED9AA2FF",
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 9,
+                    "expressionId": null,
+                    "characterId": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 1,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 38,
+                        "y": 92,
+                        "angle": 0,
+                        "zoom": 1,
+                        "horizontalFlip": true,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "animation": {
+                        "type": 0,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": {
+                                "name": "Circle_Square_Ver2",
+                                "hue": 0,
+                                "opacity": 255,
+                                "blending": 0,
+                                "tone": {
+                                    "red": 0,
+                                    "green": 0,
+                                    "blue": 0,
+                                    "grey": 0
+                                }
+                            },
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 0,
+                        "animation.type": 0,
+                        "motionBlur.enabled": 0,
+                        "origin": 0,
+                        "zOrder": 0,
+                        "blendMode": 0,
+                        "viewport.type": 0
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "741DEC50742B2747DD6BFED107EB77A9FA44",
+                        "defaultText": "Unlikely.{w:200}\nThere is currently no substance to any of the messages or text displayed.\nThe most likely case is that we are simply being used to test how well this works on scaled devices and such. Beep bop."
+                    },
+                    "position": 0,
+                    "characterId": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "DC8F5BA120D2A641417A9361BFBC39AFF256",
+                "expanded": true
             }
         ],
         "background": {
@@ -730,14 +1020,14 @@
                 }
             },
             "9DB3C2430284574DB94978D6C8E1AB974ACB": {
-                "t": "Good morning Aki, {W:1000} fancy meeting you in a place like this!",
+                "t": "Good morning Aki,{W:200} fancy meeting you in a place like this!",
                 "d": {
                     "cid": "8A6C7AAB5B659643CE0A60F7F43A774A0CAF",
                     "eid": "35DE9CFA2514B149BE49D6A500347EF432B7"
                 }
             },
             "A89C81001E5FD748873B07555EC1D1EA07CF": {
-                "t": "Well, {W:100} yeah, but it's always so hard to start up a conversation with you.",
+                "t": "Well,{W:100} yeah, but it's always so hard to start up a conversation with you.",
                 "d": {
                     "cid": "8A6C7AAB5B659643CE0A60F7F43A774A0CAF",
                     "eid": "4563D9B41CEDA24C134A82C340260B93607F"
@@ -776,6 +1066,48 @@
                 "d": {
                     "cid": "8A6C7AAB5B659643CE0A60F7F43A774A0CAF",
                     "eid": "DA4BD12C76A5E147B8196AF0EB34DAC31A4F"
+                }
+            },
+            "1D27A0C03A1A064EF37AD9F8EE8587520F50": {
+                "t": "Tell you what, {w:100} tomorrow I'll bring a home made breakfast and we can get here twenty minutes early and eat it together and talk.\nHow does that sound?",
+                "d": {
+                    "cid": "378D0AAC0EC0B8450F2ACC5139B30033BA25",
+                    "eid": "0EFAFA3E23DFC9478A5A27D2FB5645C4FAEA"
+                }
+            },
+            "1AEC689C4A1E9042853BC8869C64DC6127A9": {
+                "t": "Tell you what,{w:100} tomorrow I'll bring a home made breakfast and we can get here twenty minutes early and eat it together and talk.\nHow does that sound?",
+                "d": {
+                    "cid": "378D0AAC0EC0B8450F2ACC5139B30033BA25",
+                    "eid": "0EFAFA3E23DFC9478A5A27D2FB5645C4FAEA"
+                }
+            },
+            "E5E6E33599F0D2458B0895B17FAA59243E4C": {
+                "t": "Line 1\nLine 2\nLine 3\nLine 4\nLine 5\nLine 6",
+                "d": {
+                    "cid": "8A6C7AAB5B659643CE0A60F7F43A774A0CAF",
+                    "eid": "EC88F160163CE541F82B0308412D8606EAF6"
+                }
+            },
+            "77C2ADD7880E364E962A2C90334BA41DAC85": {
+                "t": "This is my first line, it had better count.",
+                "d": {
+                    "cid": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "eid": "95C0DB7A8C36E2459C3B76B0DFE9ED9AA2FF"
+                }
+            },
+            "EE802CC97C75A442C64A8ED25AC50D0060F6": {
+                "t": "Line 1\nLine 2\nLine 3\nLine 4\nLine 5\nLine 6",
+                "d": {
+                    "cid": "8A6C7AAB5B659643CE0A60F7F43A774A0CAF",
+                    "eid": "EC88F160163CE541F82B0308412D8606EAF6"
+                }
+            },
+            "741DEC50742B2747DD6BFED107EB77A9FA44": {
+                "t": "Unlikely.{w:200}\nThere is currently no substance to any of the messages or text displayed.\nThe most likely case is that we are simply being used to test how well this works on scaled devices and such. Beep bop.",
+                "d": {
+                    "cid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "eid": "DC8F5BA120D2A641417A9361BFBC39AFF256"
                 }
             }
         },

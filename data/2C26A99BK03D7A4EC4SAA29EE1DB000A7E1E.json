@@ -274,7 +274,7 @@
                 },
                 "vague": 30
             },
-            "aspectRatio": 0,
+            "aspectRatio": 2,
             "mouseSupport": true,
             "startScene": {
                 "uid": {
@@ -289,7 +289,7 @@
                 "vague": 30
             },
             "customResolutionWidth": 1280,
-            "resolutionType": 1,
+            "resolutionType": 0,
             "startInfo": {
                 "scene": {
                     "uid": "3305C56CKBF5BA44BFS8614EE4B277E49F6A",
@@ -297,9 +297,15 @@
                 }
             },
             "cursor": {
-                "name": null,
-                "hx": 0,
-                "hy": 0
+                "name": "cursor1",
+                "hue": 0,
+                "opacity": 255,
+                "blending": 0,
+                "tone": {
+                    "red": 0,
+                    "green": 0,
+                    "blue": 0
+                }
             },
             "titleScreen": {
                 "name": "bg-generic"
@@ -317,12 +323,6 @@
                 }
             ],
             "useIntroScene": false,
-            "introInfo": {
-                "scene": {
-                    "uid": "3305C56CKBF5BA44BFS8614EE4B277E49F6A",
-                    "name": "Sample Scene"
-                }
-            },
             "textInputPages": [
                 {
                     "lcId": "2D5EA919746C914B74082D34572D42072B71",
@@ -377,9 +377,14 @@
                 {
                     "name": "Center",
                     "script": "return { x: (Graphics.width - object.dstRect.width * object.zoom.x) / 2, y: (Graphics.height - object.dstRect.height * object.zoom.y) / 2  }"
+                },
+                {
+                    "name": "Talk4",
+                    "script": "return { x: Graphics.width - object.dstRect.width * object.zoom.x, y: (Graphics.height-180) - object.dstRect.height * object.zoom.y  }"
                 }
             ],
-            "gameUid": "304502B35BD91947535B08A80EF36199D14B"
+            "gameUid": "304502B35BD91947535B08A80EF36199D14B",
+            "saveSlotCount": 10
         },
         "id": "2C26A99BK03D7A4EC4SAA29EE1DB000A7E1E",
         "parentId": "ROOT",
@@ -412,6 +417,13 @@
                 "d": {
                     "cid": "8A6C7AAB5B659643CE0A60F7F43A774A0CAF",
                     "eid": "1BFE404D53E5934BBF582C37F82EFE47496B"
+                }
+            },
+            "0D00005A34E30341C3783C1224C234FEF1F5": {
+                "t": "Tell you what, {w:100} tomorrow I'll bring a home made breakfast and we can get here twenty minutes early and eat it together and talk.\nHow does that sound?",
+                "d": {
+                    "cid": "378D0AAC0EC0B8450F2ACC5139B30033BA25",
+                    "eid": "0EFAFA3E23DFC9478A5A27D2FB5645C4FAEA"
                 }
             }
         }

@@ -971,7 +971,7 @@
             "items": {
                 "name": "Template_Slider",
                 "type": "game_script",
-                "order": 9
+                "order": 7
             }
         },
         "9C4B4737KDC01A4763SA3ADE1724270348E7": {
@@ -999,7 +999,7 @@
             "items": {
                 "name": "Template_OptionButton",
                 "type": "game_script",
-                "order": 10
+                "order": 8
             }
         },
         "84CE7649KF843A490DSB7D5E548DE689C8B5": {
@@ -1034,7 +1034,7 @@
             "items": {
                 "name": "Template_ChoiceBox",
                 "type": "game_script",
-                "order": 6
+                "order": 5
             }
         },
         "E581B83DKBC36A4EDBSA27CEFE3B12438B77": {
@@ -1200,7 +1200,7 @@
             "items": {
                 "name": "Template_InputNumberBox",
                 "type": "game_script",
-                "order": 6
+                "order": 4
             }
         },
         "DBED0D62K6A03A47C0SA78CEBB556CA2372D": {
@@ -1214,7 +1214,7 @@
             "items": {
                 "name": "Template_InputTextBox",
                 "type": "game_script",
-                "order": 7
+                "order": 6
             }
         },
         "1F932484K382AA48B8SB623ECA67B7376D07": {
@@ -1849,7 +1849,7 @@
             "items": {
                 "name": "Template_TitledWindow",
                 "type": "game_script",
-                "order": 13
+                "order": 11
             }
         },
         "FBEA2EE7K25F8A42F1SBA1BE55C1458BD892": {
@@ -1863,14 +1863,14 @@
             "items": {
                 "name": "Template_OptionButtonSet",
                 "type": "game_script",
-                "order": 11
+                "order": 9
             }
         },
         "648CC80FKD7E4A458ESA01BE9D6F77BBCA0A": {
             "items": {
                 "name": "Template_StepSlider",
                 "type": "game_script",
-                "order": 14
+                "order": 13
             }
         },
         "64BE0206K14D8A4435S9A4BE3F480E1CAC53": {
@@ -1905,7 +1905,7 @@
             "items": {
                 "name": "Template_VerticalScrollView",
                 "type": "game_script",
-                "order": 21
+                "order": 19
             }
         },
         "526F1282K9B0FA4EDAS9FD5EAC47C4FC0D10": {
@@ -1925,7 +1925,7 @@
             "items": {
                 "name": "Template_Window",
                 "type": "game_script",
-                "order": 12
+                "order": 10
             }
         },
         "F4EBE0BEKD75CA4D54S8989E79195093571F": {
@@ -1939,7 +1939,7 @@
             "items": {
                 "name": "Template_SelectableWindow",
                 "type": "game_script",
-                "order": 14
+                "order": 12
             }
         },
         "2ADC0E64K3E53A43DFSA080E702C95F0ABF5": {
@@ -1998,7 +1998,8 @@
         "A9165C3DK50A9A43BDS987EE2B51DACB9DD6": {
             "items": {
                 "name": "Template_Button",
-                "type": "game_script"
+                "type": "game_script",
+                "order": 16
             }
         },
         "B5FDE804K902FA47B5SAE11E7B84B306C6C0": {
@@ -2220,7 +2221,8 @@
         "B72365CFKE31AA44ECS81CBE26F4D3FC7B8D": {
             "items": {
                 "name": "Template_MessageBoxMenu",
-                "type": "game_script"
+                "type": "game_script",
+                "order": 3
             }
         },
         "8A26E826K9D75A474FSA2A3E96504A4B36BA": {
@@ -2250,7 +2252,8 @@
         "F0793627KD609A45B1S8FADE2F1933A523DD": {
             "items": {
                 "name": "Template_ConfirmationButton",
-                "type": "game_script"
+                "type": "game_script",
+                "order": 14
             }
         },
         "4E4940CCKA8F7A424FS813DE0DB75D3B524B": {
@@ -2280,7 +2283,8 @@
         "4FC8DB5825781449A98B79F6CDB6A04785D8": {
             "items": {
                 "name": "Template_FreeChoiceBox",
-                "type": "game_script"
+                "type": "game_script",
+                "order": 24
             }
         },
         "22E0BB326702B84AF95BEAC0E5D75E1A9858": {
@@ -2430,13 +2434,15 @@
         "07AD818F7526B445304B41609C21B067400A": {
             "items": {
                 "name": "Template_DataScrollView",
-                "type": "game_script"
+                "type": "game_script",
+                "order": 20
             }
         },
         "0287A57C29D34340DE89B3C64AE4DE9BE9B3": {
             "items": {
                 "name": "Template_MessageBacklog",
-                "type": "game_script"
+                "type": "game_script",
+                "order": 2
             }
         },
         "604014AD1E9551496B7AA224258F20EBD72C": {
@@ -2689,19 +2695,22 @@
         "7FC49F902D96C645282B4CA923D4F357013B": {
             "items": {
                 "name": "Template_SettingsMenuSlider",
-                "type": "game_script"
+                "type": "game_script",
+                "order": 21
             }
         },
         "9D05379F6DAA854616788E2945AA54922342": {
             "items": {
                 "name": "Template_SettingsOptionSet",
-                "type": "game_script"
+                "type": "game_script",
+                "order": 22
             }
         },
         "FF363DC26272454516591678B7D64481592C": {
             "items": {
                 "name": "Template_SettingsStepSlider",
-                "type": "game_script"
+                "type": "game_script",
+                "order": 23
             }
         },
         "2C275D7A83BA594AB27BA4E1E98869EA3E75": {
@@ -3011,6 +3020,41 @@
                 "name": "Aki",
                 "type": "data_record",
                 "order": 2
+            }
+        },
+        "FCCF0CB04E70A9476D187099A715CFDBE589": {
+            "items": {
+                "name": "Warden",
+                "type": "data_record",
+                "order": 3
+            }
+        },
+        "E6C77BB83BF6A34E7E0B2B44BE8B31199E94": {
+            "items": {
+                "name": "Warden",
+                "type": "data_record",
+                "order": 1
+            }
+        },
+        "03C91C1D5324D143F398D9544A21DE49A1F7": {
+            "items": {
+                "name": "Template_OutlawWindow",
+                "type": "game_script",
+                "order": 25
+            }
+        },
+        "63F6E63D30C2834ACA8812E62D502D4B1994": {
+            "items": {
+                "name": "Robo",
+                "type": "data_record",
+                "order": 2
+            }
+        },
+        "70A98EDF778EC4466F6BC953EB49DDD83E8A": {
+            "items": {
+                "name": "Robo",
+                "type": "data_record",
+                "order": 5
             }
         }
     }
