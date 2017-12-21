@@ -1,0 +1,56 @@
+{
+    "uid": "8A6C7AAB5B659643CE0A60F7F43A774A0CAF",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Haruka",
+        "type": "data_record",
+        "order": 1,
+        "category": "characters",
+        "id": "8A6C7AAB5B659643CE0A60F7F43A774A0CAF",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "localizableStrings": {
+            "86D885B93700314EC09B9607A75161DA4AC2": {
+                "t": "",
+                "d": null
+            },
+            "00FE84885CF36742C96ADDA28D4FDA164632": {
+                "t": "Haruka",
+                "d": null
+            },
+            "42A294992CB3E14CDA3A2986FD2991A8259C": {
+                "t": "I guess I'm not really an easy to approach person...",
+                "d": {
+                    "cid": "378D0AAC0EC0B8450F2ACC5139B30033BA25",
+                    "eid": "8184F527500F77460C882C58AF468E7B07F5"
+                }
+            }
+        },
+        "data": {
+            "name": {
+                "lcId": "00FE84885CF36742C96ADDA28D4FDA164632",
+                "defaultText": "Haruka"
+            },
+            "textColor": {
+                "red": 255,
+                "green": 114,
+                "blue": 79,
+                "alpha": 255
+            },
+            "defaultExpressionId": "BF7CB12110894142C299D341A545C910AA86",
+            "timeTalkingToVoiceVolume": true,
+            "talkingVolume": 5,
+            "lipSyncSensitivity": 1,
+            "breathIntensity": 1,
+            "idleIntensity": 1,
+            "params": [],
+            "index": "8A6C7AAB5B659643CE0A60F7F43A774A0CAF"
+        }
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

@@ -1,0 +1,3067 @@
+[
+    {
+        "path": "Graphics",
+        "resources": []
+    },
+    {
+        "path": "Graphics/Characters",
+        "resources": [
+            {
+                "name": "Package1_1",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 151808
+            },
+            {
+                "name": "Package1_2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 151810
+            },
+            {
+                "name": "Package1_3",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 151812
+            },
+            {
+                "name": "Package1_4",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 151814
+            },
+            {
+                "name": "Package1_5",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 151816
+            },
+            {
+                "name": "Package1_6",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 151818
+            },
+            {
+                "name": "Package1_7",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 151820
+            },
+            {
+                "name": "Package1_8",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 151822
+            },
+            {
+                "name": "Package2_1",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 151824
+            },
+            {
+                "name": "Package2_2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 151826
+            },
+            {
+                "name": "Package2_3",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 151828
+            },
+            {
+                "name": "Package2_4",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 151830
+            },
+            {
+                "name": "Package2_5",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 151832
+            },
+            {
+                "name": "Package2_6",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 151834
+            },
+            {
+                "name": "Package2_7",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 151836
+            },
+            {
+                "name": "Package2_8",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 151838
+            }
+        ]
+    },
+    {
+        "path": "Graphics/Backgrounds",
+        "resources": [
+            {
+                "type": "folder",
+                "name": "B0BE8C6F82B50841FF7ABE428239A27E5222",
+                "displayName": "Date Locations",
+                "resources": [
+                    {
+                        "name": "Amusementpark_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Amusementpark_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Amusementpark_Sunset",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Aquarium_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Beach_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Beach_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Beach_Sunset",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Bench_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Bench_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Bench_Sunset",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Bookstore_Morning1",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Bookstore_Morning2",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Bookstore_Night1",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Bookstore_Night2",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "CafeNoFood_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "CafeNoFood_Night1",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "CafeNoFood_Night2",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "CafeWithCake_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "CafeWithCake_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "City2_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "City2_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "City2_Sunset",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "City3_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "City3_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "City3_Sunset",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "City_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "City_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "ConcertStage1",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "ConcertStage2",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Hotspring_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Hotspring_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Hotspring_Sunset",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Restaurant_Morning1",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Restaurant_Morning2",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Restaurant_Morning3",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Restaurant_Night1",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Restaurant_Night2",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Restaurant_Night3",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Shoppingmall_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "Shoppingmall_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "SpaResort_Morning",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "SpaResort_Night",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "SummerFestivalEempty",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "SummerFestivalFoodStall",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "SummerFestivalPacked",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "TheaterEmpty",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "TheaterFew1",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "TheaterFew2",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "TheaterFull1",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    },
+                    {
+                        "name": "TheaterFull2",
+                        "type": "graphic",
+                        "parent": "B0BE8C6F82B50841FF7ABE428239A27E5222"
+                    }
+                ],
+                "isa": null,
+                "_UID": 1242083
+            },
+            {
+                "type": "folder",
+                "name": "15928152658AE14AC97827083083B901DA95",
+                "displayName": "Home",
+                "resources": [
+                    {
+                        "name": "Apartment2Inside_Morning",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Apartment2Inside_Night",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Apartment2Inside_Sunset",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Apartment2Outside_Morning",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Apartment2Outside_Night",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Apartment2Outside_Sunset",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "ApartmentInside_Morning",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "ApartmentInside_Night",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "ApartmentInside_Sunset",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "ApartmentOutside_Morning",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "ApartmentOutside_Night",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "ApartmentOutside_Sunset",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "HomeOutside_Morning1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "HomeOutside_Morning2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "HomeOutside_Morning3",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "HomeOutside_Night1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "HomeOutside_Night2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "HomeOutside_Night3",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Japanese-styleMansionInside_Morning",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Japanese-styleMansionInside_Night",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Japanese-styleMansionInside_Sunset",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Japanese-styleMansionOutside_Morning",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Japanese-styleMansionOutside_Night",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Japanese-styleMansionOutside_Sunset",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Kitchen_Morning1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Kitchen_Morning2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Kitchen_Night1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Kitchen_Night2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "KitchenMessy_Morning1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "KitchenMessy_Morning2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "KitchenMessy_Night1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "KitchenMessy_Night2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "MansionInside_Morning",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "MansionInside_Night",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "MansionInside_Sunset",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "MansionOutside_Morning",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "MansionOutside_Night",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "MansionOutside_Sunset",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Morning1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Morning2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Morning3",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Morning4",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Morning5",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Morning6",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Night1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Night2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Night3",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Night4",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Night5",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeF_Night6",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeM_Morning1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeM_Morning2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeM_Morning3",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeM_Night1",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeM_Night2",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeM_Night3",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeM_Night4",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "PlayerHomeM_Night5",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Residentialarea_Morning",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Residentialarea_Night",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    },
+                    {
+                        "name": "Residentialarea_Sunset",
+                        "type": "graphic",
+                        "parent": "15928152658AE14AC97827083083B901DA95"
+                    }
+                ],
+                "isa": null,
+                "_UID": 1251806
+            },
+            {
+                "type": "folder",
+                "name": "D49214CA74B75645E97851E89E33313727AA",
+                "displayName": "MVBackgrounds",
+                "resources": [
+                    {
+                        "name": "Cobblestones1",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224424
+                    },
+                    {
+                        "name": "Cobblestones2",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224426
+                    },
+                    {
+                        "name": "Cobblestones3",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224428
+                    },
+                    {
+                        "name": "Cobblestones4",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224430
+                    },
+                    {
+                        "name": "Cobblestones5",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224432
+                    },
+                    {
+                        "name": "CobblestonesPool",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224434
+                    },
+                    {
+                        "name": "DecorativeTile",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224440
+                    },
+                    {
+                        "name": "Dirt1",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224450
+                    },
+                    {
+                        "name": "Dirt2",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224452
+                    },
+                    {
+                        "name": "DirtField",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224454
+                    },
+                    {
+                        "name": "FaceTile",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224456
+                    },
+                    {
+                        "name": "Factory",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224458
+                    },
+                    {
+                        "name": "GrassMazePool",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224464
+                    },
+                    {
+                        "name": "Lava1",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224470
+                    },
+                    {
+                        "name": "Lava2",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224472
+                    },
+                    {
+                        "name": "Meadow",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224476
+                    },
+                    {
+                        "name": "Road1",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224480
+                    },
+                    {
+                        "name": "Road2",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224482
+                    },
+                    {
+                        "name": "Road3",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224484
+                    },
+                    {
+                        "name": "Ruins3",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224492
+                    },
+                    {
+                        "name": "Ruins4",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224494
+                    },
+                    {
+                        "name": "Ruins5",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224496
+                    },
+                    {
+                        "name": "Sand",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224498
+                    },
+                    {
+                        "name": "SF_Asphalt1",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224500
+                    },
+                    {
+                        "name": "SF_Asphalt1_Damaged",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224502
+                    },
+                    {
+                        "name": "SF_Asphalt1_Night",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224504
+                    },
+                    {
+                        "name": "SF_Asphalt2",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224506
+                    },
+                    {
+                        "name": "SF_Asphalt2_Damaged",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224508
+                    },
+                    {
+                        "name": "SF_Asphalt3",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224510
+                    },
+                    {
+                        "name": "SF_Asphalt4",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224512
+                    },
+                    {
+                        "name": "SF_Asphalt5",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224514
+                    },
+                    {
+                        "name": "SF_Building",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224516
+                    },
+                    {
+                        "name": "SF_Concrete",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224520
+                    },
+                    {
+                        "name": "SF_Crater",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224522
+                    },
+                    {
+                        "name": "SF_Dirt",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224526
+                    },
+                    {
+                        "name": "SF_Factory_Damaged",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224530
+                    },
+                    {
+                        "name": "SF_Flooring",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224532
+                    },
+                    {
+                        "name": "SF_Gothic1",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224534
+                    },
+                    {
+                        "name": "SF_Gothic2",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224536
+                    },
+                    {
+                        "name": "SF_MagicCircle",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224540
+                    },
+                    {
+                        "name": "SF_Metal1",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224542
+                    },
+                    {
+                        "name": "SF_Metal2",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224544
+                    },
+                    {
+                        "name": "SF_Metal2_Damaged",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224546
+                    },
+                    {
+                        "name": "SF_MetalLattice",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224548
+                    },
+                    {
+                        "name": "Translucent",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224560
+                    },
+                    {
+                        "name": "WireMesh",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224564
+                    },
+                    {
+                        "name": "Wood1",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224566
+                    },
+                    {
+                        "name": "Wood2",
+                        "type": "graphic",
+                        "parent": "D49214CA74B75645E97851E89E33313727AA",
+                        "isa": null,
+                        "_UID": 224570
+                    }
+                ],
+                "isa": null,
+                "_UID": 174907
+            },
+            {
+                "type": "folder",
+                "name": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                "displayName": "MVForegrounds",
+                "resources": [
+                    {
+                        "name": "Brick",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 444970
+                    },
+                    {
+                        "name": "Bridge",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 444972
+                    },
+                    {
+                        "name": "Castle1",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 444974
+                    },
+                    {
+                        "name": "Castle2",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 444976
+                    },
+                    {
+                        "name": "Castle3",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 444978
+                    },
+                    {
+                        "name": "Cliff",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 444980
+                    },
+                    {
+                        "name": "Clouds",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 444982
+                    },
+                    {
+                        "name": "Crystal",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 444984
+                    },
+                    {
+                        "name": "DarkSpace",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 444986
+                    },
+                    {
+                        "name": "DemonCastle1",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 444988
+                    },
+                    {
+                        "name": "DemonCastle2",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 444990
+                    },
+                    {
+                        "name": "DemonCastle3",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 444992
+                    },
+                    {
+                        "name": "DemonicWorld",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 444994
+                    },
+                    {
+                        "name": "Desert",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 444996
+                    },
+                    {
+                        "name": "DirtCave",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 444998
+                    },
+                    {
+                        "name": "Forest",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445000
+                    },
+                    {
+                        "name": "Fort1",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445002
+                    },
+                    {
+                        "name": "Fort2",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445004
+                    },
+                    {
+                        "name": "Grassland",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445006
+                    },
+                    {
+                        "name": "GrassMaze",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445008
+                    },
+                    {
+                        "name": "IceCave",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445010
+                    },
+                    {
+                        "name": "IceMaze",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445012
+                    },
+                    {
+                        "name": "InBody",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445014
+                    },
+                    {
+                        "name": "Lava",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445016
+                    },
+                    {
+                        "name": "LavaCave",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445018
+                    },
+                    {
+                        "name": "Metal",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445020
+                    },
+                    {
+                        "name": "Mine",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445022
+                    },
+                    {
+                        "name": "PoisonSwamp",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445024
+                    },
+                    {
+                        "name": "Port",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445026
+                    },
+                    {
+                        "name": "RockCave",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445028
+                    },
+                    {
+                        "name": "Room1",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445030
+                    },
+                    {
+                        "name": "Room2",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445032
+                    },
+                    {
+                        "name": "Room3",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445034
+                    },
+                    {
+                        "name": "Ruins1",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445036
+                    },
+                    {
+                        "name": "Ruins2",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445038
+                    },
+                    {
+                        "name": "SF_Building1",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445040
+                    },
+                    {
+                        "name": "SF_Building2",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445042
+                    },
+                    {
+                        "name": "SF_City",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445044
+                    },
+                    {
+                        "name": "SF_Company",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445046
+                    },
+                    {
+                        "name": "SF_ComputerRoom",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445048
+                    },
+                    {
+                        "name": "SF_CyberSpace",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445050
+                    },
+                    {
+                        "name": "SF_DistantView1",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445052
+                    },
+                    {
+                        "name": "SF_DistantView2",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445054
+                    },
+                    {
+                        "name": "SF_DistantView3",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445056
+                    },
+                    {
+                        "name": "SF_DistantView3_Night",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445058
+                    },
+                    {
+                        "name": "SF_Factory",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445060
+                    },
+                    {
+                        "name": "SF_GothicEntrance",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445062
+                    },
+                    {
+                        "name": "SF_GothicRoom",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445064
+                    },
+                    {
+                        "name": "SF_Hospital",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445066
+                    },
+                    {
+                        "name": "SF_InnerWorld",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445068
+                    },
+                    {
+                        "name": "SF_Laboratory",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445070
+                    },
+                    {
+                        "name": "SF_Metal",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445072
+                    },
+                    {
+                        "name": "SF_MilitaryBase",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445074
+                    },
+                    {
+                        "name": "SF_Park",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445076
+                    },
+                    {
+                        "name": "SF_PresidentsOffice",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445078
+                    },
+                    {
+                        "name": "SF_School1",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445080
+                    },
+                    {
+                        "name": "SF_School2",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445082
+                    },
+                    {
+                        "name": "SF_Scrap",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445084
+                    },
+                    {
+                        "name": "SF_Sewer",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445086
+                    },
+                    {
+                        "name": "SF_Slum",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445088
+                    },
+                    {
+                        "name": "SF_Town",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445090
+                    },
+                    {
+                        "name": "SF_VacantLot",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445092
+                    },
+                    {
+                        "name": "SF_WarehouseDistrict",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445094
+                    },
+                    {
+                        "name": "Ship",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445096
+                    },
+                    {
+                        "name": "Sky",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445098
+                    },
+                    {
+                        "name": "Snowfield",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445100
+                    },
+                    {
+                        "name": "Stone1",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445102
+                    },
+                    {
+                        "name": "Stone2",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445104
+                    },
+                    {
+                        "name": "Stone3",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445106
+                    },
+                    {
+                        "name": "Temple",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445108
+                    },
+                    {
+                        "name": "Tent",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445110
+                    },
+                    {
+                        "name": "Tower",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445114
+                    },
+                    {
+                        "name": "Town1",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445116
+                    },
+                    {
+                        "name": "Town2",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445118
+                    },
+                    {
+                        "name": "Town3",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445120
+                    },
+                    {
+                        "name": "Town4",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445122
+                    },
+                    {
+                        "name": "Town5",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445124
+                    },
+                    {
+                        "name": "Wasteland",
+                        "type": "graphic",
+                        "parent": "78CC41B41D3E64486F8A8180F786A85D89E5",
+                        "isa": null,
+                        "_UID": 445126
+                    }
+                ],
+                "isa": null,
+                "_UID": 240658
+            },
+            {
+                "type": "folder",
+                "name": "16A02B25734DB14FAE6B5BD3769F2C9EDA94",
+                "displayName": "School",
+                "resources": [
+                    {
+                        "name": "Classroom1_Morning1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Morning2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Morning3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Morning4",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Morning5",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Night1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Night2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Night3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Sunset1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Sunset2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Sunset3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Sunset4",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom1_Sunset5",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Festival1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Festival2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Festival3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Morning1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Morning2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Morning3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Night1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Night2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Night3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Sunset1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Sunset2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Classroom2_Sunset3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Gym_Morning",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Gym_Morning1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Gym_Morning2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Gym_Night",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Gym_Night1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "Gym_Night2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "GymAssembly_Morning",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "GymAssembly_Night",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "InfirmaryEmptyBed_Morning1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "InfirmaryEmptyBed_Morning2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "InfirmaryEmptyBed_Night1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "InfirmaryEmptyBed_Night2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "InfirmaryWithStudent_Morning1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "InfirmaryWithStudent_Morning2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryBookshelves_Morning1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryBookshelves_Morning2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryBookshelves_Morning3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryBookshelves_Night1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryBookshelves_Night2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryBookshelves_Night3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryStudyArea_Morning1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryStudyArea_Morning2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryStudyArea_Morning3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryStudyArea_Night1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryStudyArea_Night2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "LibraryStudyArea_Night3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "School_Hallway1_1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "School_Hallway1_2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "School_Hallway1_rain",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "School_Hallway1_snow",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "School_Hallway1_spring",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "School_Hallway1_sunset",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside2_Morning",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside2_Night",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside2_Sunset",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Cloudy1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Morning1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Morning2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Morning3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_night",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Night1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Night2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Night3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_rain",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Rain1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Rain2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Rain3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_sunset",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Sunset1",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Sunset2",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "SchoolOutside_Sunset3",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "StudentdormitoryInside_Morning",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "StudentdormitoryInside_Night",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "StudentdormitoryInside_Sunset",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "StudentdormitoryOutside_Morning",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "StudentdormitoryOutside_Night",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    },
+                    {
+                        "name": "StudentdormitoryOutside_Sunset",
+                        "type": "graphic",
+                        "parent": "16A02B25734DB14FAE6B5BD3769F2C9EDA94"
+                    }
+                ],
+                "isa": null,
+                "_UID": 1254030
+            },
+            {
+                "type": "folder",
+                "name": "0BF4B0E8389E084F8C2A8448B7A9B241735D",
+                "displayName": "Special",
+                "resources": [
+                    {
+                        "name": "Background_picture2",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Background_picture3",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Background_picture4",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Background_picture5",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Background_picture6",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Concentration _line1",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Concentration _line2",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Concentration _line3",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Concentration _line4",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Concentration _line5",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Moonlight1",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Moonlight2",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Moonlight3",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Moonlight4",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "NightSky1",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "NightSky2",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Sky_Cloudy",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Sky_Morning",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Sky_Summer",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Stars1",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Stars2",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Stars3",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Sunset1",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Sunset2",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Sunset3",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Sunset4",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    },
+                    {
+                        "name": "Background_picture1",
+                        "type": "graphic",
+                        "parent": "0BF4B0E8389E084F8C2A8448B7A9B241735D"
+                    }
+                ],
+                "isa": null,
+                "_UID": 1255110
+            }
+        ]
+    },
+    {
+        "path": "Graphics/Pictures",
+        "resources": [
+            {
+                "type": "folder",
+                "name": "85EF76BFKEA74A4DAFS971BE829A634E4220",
+                "displayName": "CG Gallery",
+                "resources": [
+                    {
+                        "name": "Metis_CG",
+                        "type": "graphic",
+                        "parent": "85EF76BFKEA74A4DAFS971BE829A634E4220",
+                        "isa": null,
+                        "_UID": 152891
+                    },
+                    {
+                        "name": "Metis_CG_Thumb",
+                        "type": "graphic",
+                        "parent": "85EF76BFKEA74A4DAFS971BE829A634E4220",
+                        "isa": null,
+                        "_UID": 152893
+                    }
+                ],
+                "isa": null,
+                "_UID": 130585
+            },
+            {
+                "type": "folder",
+                "name": "357B89457FFD83407B6AA2D3DEA2997837AA",
+                "displayName": "Items",
+                "resources": [
+                    {
+                        "name": "00_key",
+                        "type": "graphic",
+                        "parent": "357B89457FFD83407B6AA2D3DEA2997837AA"
+                    },
+                    {
+                        "name": "01_phone",
+                        "type": "graphic",
+                        "parent": "357B89457FFD83407B6AA2D3DEA2997837AA"
+                    }
+                ],
+                "isa": null,
+                "_UID": 181004
+            },
+            {
+                "type": "folder",
+                "name": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                "displayName": "UI",
+                "resources": [
+                    {
+                        "type": "folder",
+                        "name": "19ED82B893A7F34ABF2BFF6544310CE53F07",
+                        "displayName": "Cursor",
+                        "resources": [
+                            {
+                                "name": "cursor3",
+                                "type": "graphic",
+                                "parent": "19ED82B893A7F34ABF2BFF6544310CE53F07"
+                            },
+                            {
+                                "name": "cursor1",
+                                "type": "graphic",
+                                "parent": "19ED82B893A7F34ABF2BFF6544310CE53F07"
+                            },
+                            {
+                                "name": "cursor2",
+                                "type": "graphic",
+                                "parent": "19ED82B893A7F34ABF2BFF6544310CE53F07"
+                            },
+                            {
+                                "name": "cursor4",
+                                "type": "graphic",
+                                "parent": "19ED82B893A7F34ABF2BFF6544310CE53F07"
+                            }
+                        ],
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 206770
+                    },
+                    {
+                        "type": "folder",
+                        "name": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                        "displayName": "Mobile",
+                        "resources": [
+                            {
+                                "name": "m-arrow",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "m-arrow-disabled",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "m-diamond-large-off",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "m-diamond-large-on",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "m-diamond-small-off",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "m-diamond-small-on",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "msg-diamond-small-off",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            },
+                            {
+                                "name": "msg-diamond-small-on",
+                                "type": "graphic",
+                                "parent": "F62E7167KEA21A419DSB8A3E830D599F89CB",
+                                "isa": null
+                            }
+                        ],
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130918
+                    },
+                    {
+                        "name": "bg-generic",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130920
+                    },
+                    {
+                        "name": "diamond-large-off",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130922
+                    },
+                    {
+                        "name": "diamond-large-on",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130924
+                    },
+                    {
+                        "name": "diamond-small-off",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130926
+                    },
+                    {
+                        "name": "diamond-small-on",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130928
+                    },
+                    {
+                        "name": "dropshadow",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130930
+                    },
+                    {
+                        "name": "entrybox",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130932
+                    },
+                    {
+                        "name": "locked",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130934
+                    },
+                    {
+                        "name": "message_caret",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 204495
+                    },
+                    {
+                        "name": "scrollbar",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130936
+                    },
+                    {
+                        "name": "selection",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130938
+                    },
+                    {
+                        "name": "selection-inactive",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130940
+                    },
+                    {
+                        "name": "skin-frame",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130942
+                    },
+                    {
+                        "name": "skin-stretch",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130944
+                    },
+                    {
+                        "name": "skin-tile",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130946
+                    },
+                    {
+                        "name": "thumbnailshadow",
+                        "type": "graphic",
+                        "parent": "B3B4F9F1K8EDBA4829SAC53E22E4E658045E",
+                        "isa": null,
+                        "_UID": 130948
+                    }
+                ],
+                "isa": null,
+                "_UID": 130587
+            },
+            {
+                "name": "web-start-screen",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 138891
+            }
+        ]
+    },
+    {
+        "path": "Graphics/Icons",
+        "resources": [
+            {
+                "name": "Germany",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 794451
+            },
+            {
+                "name": "Japan",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 794453
+            },
+            {
+                "name": "United-Kingdom",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 794455
+            }
+        ]
+    },
+    {
+        "path": "Graphics/Masks",
+        "resources": [
+            {
+                "name": "Blinds_Hor",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127354
+            },
+            {
+                "name": "Blinds_V",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127356
+            },
+            {
+                "name": "Circle",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127358
+            },
+            {
+                "name": "Circle_Square",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127360
+            },
+            {
+                "name": "Circle_Square_Ver2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127362
+            },
+            {
+                "name": "Circle_Ver2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127364
+            },
+            {
+                "name": "Dissolve",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127366
+            },
+            {
+                "name": "Dissolve_Ver2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127368
+            },
+            {
+                "name": "Heart",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127370
+            },
+            {
+                "name": "Heart_Square",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127372
+            },
+            {
+                "name": "Heart_Ver2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127374
+            },
+            {
+                "name": "HeartB",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127376
+            },
+            {
+                "name": "HeartB_Ver2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127378
+            },
+            {
+                "name": "Rect",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127380
+            },
+            {
+                "name": "Rect_Ver2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127382
+            },
+            {
+                "name": "Splotches",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127384
+            },
+            {
+                "name": "Splotches_Ver2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127386
+            },
+            {
+                "name": "Star",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127388
+            },
+            {
+                "name": "Star_Square",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127390
+            },
+            {
+                "name": "Star_Square_Ver2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127392
+            },
+            {
+                "name": "Star_Ver2",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 127394
+            }
+        ]
+    },
+    {
+        "path": "Graphics/Fonts",
+        "resources": []
+    },
+    {
+        "path": "Audio/Music",
+        "resources": [
+            {
+                "name": "Competitive_-_Fired_Up",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288695
+            },
+            {
+                "name": "Festival_-_Celebrating_Tradition",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288697
+            },
+            {
+                "name": "Nostalgia_-_Fond_Memories",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288699
+            },
+            {
+                "name": "Playful_-_Kidding_Around",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288701
+            },
+            {
+                "name": "Romance_-_Dreaming_Of_You",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288703
+            },
+            {
+                "name": "Romance_-_Love_Never_Ends",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288705
+            },
+            {
+                "name": "Sad_-_Wistful_Longing",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288707
+            },
+            {
+                "name": "School_-_First_Day",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288709
+            },
+            {
+                "name": "School_-_Lunch_Break",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288711
+            },
+            {
+                "name": "Theme_-_Forever_Together",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288713
+            },
+            {
+                "name": "Tutorial_-_Good_Mood",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288715
+            },
+            {
+                "name": "Wedding_-_Wedding_March",
+                "type": "audio",
+                "isa": null,
+                "_UID": 288717
+            }
+        ]
+    },
+    {
+        "path": "Audio/Sounds",
+        "resources": [
+            {
+                "type": "folder",
+                "name": "EBDB475A7FA6084E9F692D17174FF0158E31",
+                "displayName": "Music Effects",
+                "resources": [
+                    {
+                        "name": "ME_-_school_chimes_01",
+                        "type": "audio",
+                        "parent": "EBDB475A7FA6084E9F692D17174FF0158E31"
+                    },
+                    {
+                        "name": "ME_-_school_chimes_02",
+                        "type": "audio",
+                        "parent": "EBDB475A7FA6084E9F692D17174FF0158E31"
+                    },
+                    {
+                        "name": "ME_Game_Over",
+                        "type": "audio",
+                        "parent": "EBDB475A7FA6084E9F692D17174FF0158E31"
+                    },
+                    {
+                        "name": "ME_Level_Up_Fail",
+                        "type": "audio",
+                        "parent": "EBDB475A7FA6084E9F692D17174FF0158E31"
+                    },
+                    {
+                        "name": "ME_Level_Up_Success",
+                        "type": "audio",
+                        "parent": "EBDB475A7FA6084E9F692D17174FF0158E31"
+                    },
+                    {
+                        "name": "ME_Sleep_01",
+                        "type": "audio",
+                        "parent": "EBDB475A7FA6084E9F692D17174FF0158E31"
+                    },
+                    {
+                        "name": "ME_Sleep_02",
+                        "type": "audio",
+                        "parent": "EBDB475A7FA6084E9F692D17174FF0158E31"
+                    }
+                ],
+                "isa": null,
+                "_UID": 291116
+            },
+            {
+                "type": "folder",
+                "name": "596171293B19A645921AD5A2DF965604D3E1",
+                "displayName": "Sound Effects",
+                "resources": [
+                    {
+                        "name": "ambulance_siren",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "basketball_bounce_single",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "basketball_dribble",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "book_close",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "book_page_turn",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "cellphone_ring",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "cellphone_text_message_received",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "chair_squeaky",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "cicadas",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "clock_chime",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "clock_tick_tock_01",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "clock_tick_tock_02",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "cooking_boiling_water",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "cooking_frying_sizzle",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "cooking_oven_burner",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "door_close",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "door_open",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "door_open_creaky",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "door_sliding",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "fire_alarm_01",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "fire_alarm_02",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "footsteps_creaky_stairs",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "footsteps_fast",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "footsteps_normal",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "footsteps_slow",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "glass_break_01",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "glass_break_02",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "school_bell",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "school_chalk_on_chalkboard",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "thud_01",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "thud_02",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "thud_03",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "writing_inkpen",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "writing_pencil_01",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "writing_pencil_02",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    },
+                    {
+                        "name": "writing_pencil_eraser",
+                        "type": "audio",
+                        "parent": "596171293B19A645921AD5A2DF965604D3E1"
+                    }
+                ],
+                "isa": null,
+                "_UID": 292980
+            },
+            {
+                "type": "folder",
+                "name": "ABCD5AC67A276749B11AC05560C3D6482B3D",
+                "displayName": "System",
+                "resources": [
+                    {
+                        "name": "choice_cancel_02",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "choice_confirm_01",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "choice_confirm_02",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "choice_confirm_03",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "cursor",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "exit_01",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "exit_02",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "invalid_buzz_01",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "invalid_buzz_02",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "invalid_buzz_03",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "load_01",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "load_02",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "save_01",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "save_02",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    },
+                    {
+                        "name": "choice_cancel_01",
+                        "type": "audio",
+                        "parent": "ABCD5AC67A276749B11AC05560C3D6482B3D"
+                    }
+                ],
+                "isa": null,
+                "_UID": 337064
+            }
+        ]
+    },
+    {
+        "path": "Live2D",
+        "resources": [
+            {
+                "name": "AkiMuroto",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 1660752
+            },
+            {
+                "name": "HarukaNiimiUniform",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 1637477
+            },
+            {
+                "name": "HikariSanehara",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 1695382
+            },
+            {
+                "name": "MaiSakura",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 1678082
+            },
+            {
+                "name": "NonokaMasaki",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 1714284
+            },
+            {
+                "name": "RinaYunokimodel",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 1732843
+            },
+            {
+                "name": "TomoeMisummodel",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 2535292
+            }
+        ]
+    },
+    {
+        "path": "Movies",
+        "resources": [
+            {
+                "name": "lrain.webmhd",
+                "type": "video",
+                "isa": null,
+                "_UID": 785794
+            },
+            {
+                "name": "fog.webmhd",
+                "type": "video",
+                "isa": null,
+                "_UID": 785796
+            },
+            {
+                "name": "rays.webmhd",
+                "type": "video",
+                "isa": null,
+                "_UID": 785798
+            },
+            {
+                "name": "rain2.webmhd",
+                "type": "video",
+                "isa": null,
+                "_UID": 785800
+            },
+            {
+                "name": "snow.webmhd",
+                "type": "video",
+                "isa": null,
+                "_UID": 785802
+            },
+            {
+                "name": "rain1-white.webmhd",
+                "type": "video",
+                "isa": null,
+                "_UID": 785804
+            },
+            {
+                "name": "rain1.webmhd",
+                "type": "video",
+                "isa": null,
+                "_UID": 785806
+            },
+            {
+                "name": "blizzard.webmhd",
+                "type": "video",
+                "isa": null,
+                "_UID": 785808
+            }
+        ]
+    }
+]

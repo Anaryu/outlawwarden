@@ -1,0 +1,56 @@
+{
+    "uid": "378D0AAC0EC0B8450F2ACC5139B30033BA25",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Aki",
+        "type": "data_record",
+        "order": 2,
+        "category": "characters",
+        "id": "378D0AAC0EC0B8450F2ACC5139B30033BA25",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "localizableStrings": {
+            "CDC8F17A11331547137861674D715D9C1E8E": {
+                "t": "",
+                "d": null
+            },
+            "DD8DE96B2D545249FF1BB710A1D3EFB91FF2": {
+                "t": "Aki",
+                "d": null
+            },
+            "B3E9C61F64C8294C141861A657F0125BDDCA": {
+                "t": "I guess I'm not really an easy to approach person...",
+                "d": {
+                    "cid": "378D0AAC0EC0B8450F2ACC5139B30033BA25",
+                    "eid": "8184F527500F77460C882C58AF468E7B07F5"
+                }
+            }
+        },
+        "data": {
+            "name": {
+                "lcId": "DD8DE96B2D545249FF1BB710A1D3EFB91FF2",
+                "defaultText": "Aki"
+            },
+            "textColor": {
+                "red": 132,
+                "green": 52,
+                "blue": 255,
+                "alpha": 255
+            },
+            "defaultExpressionId": "BF7CB12110894142C299D341A545C910AA86",
+            "timeTalkingToVoiceVolume": true,
+            "talkingVolume": 5,
+            "lipSyncSensitivity": 1,
+            "breathIntensity": 1,
+            "idleIntensity": 1,
+            "params": [],
+            "index": "378D0AAC0EC0B8450F2ACC5139B30033BA25"
+        }
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}
