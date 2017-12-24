@@ -1,10 +1,11 @@
 {
     "uid": "FCCF0CB04E70A9476D187099A715CFDBE589",
     "isLoaded": true,
-    "lastModificationTime": null,
+    "lastModificationTime": 0,
     "items": {
-        "name": "Warden",
+        "name": "Shaman",
         "type": "data_record",
+        "order": 3,
         "category": "characters",
         "id": "FCCF0CB04E70A9476D187099A715CFDBE589",
         "isFolder": false,
@@ -15,18 +16,18 @@
                 "d": null
             },
             "31889DFB643A2649452922619D327F71B3A9": {
-                "t": "Warden",
+                "t": "Shaman",
                 "d": null
             }
         },
         "data": {
             "name": {
                 "lcId": "31889DFB643A2649452922619D327F71B3A9",
-                "defaultText": "Warden"
+                "defaultText": "Shaman"
             },
             "textColor": {
-                "red": 46,
-                "green": 115,
+                "red": 98,
+                "green": 138,
                 "blue": 255,
                 "alpha": 255
             },
@@ -38,8 +39,7 @@
             "idleIntensity": 1,
             "params": [],
             "index": "FCCF0CB04E70A9476D187099A715CFDBE589"
-        },
-        "order": 3
+        }
     },
     "summary": [
         "name",

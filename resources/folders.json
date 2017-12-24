@@ -2150,6 +2150,20 @@
         "resources": [
             {
                 "type": "folder",
+                "name": "BE43D9FA3FECF544C47A2303292F308E9D46",
+                "displayName": "Animations",
+                "resources": [
+                    {
+                        "name": "Explosion1",
+                        "type": "graphic",
+                        "parent": "BE43D9FA3FECF544C47A2303292F308E9D46"
+                    }
+                ],
+                "isa": null,
+                "_UID": 112132
+            },
+            {
+                "type": "folder",
                 "name": "85EF76BFKEA74A4DAFS971BE829A634E4220",
                 "displayName": "CG Gallery",
                 "resources": [
@@ -2564,6 +2578,12 @@
     {
         "path": "Graphics/Fonts",
         "resources": [
+            {
+                "name": "calibri",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 110721
+            },
             {
                 "name": "FORTE",
                 "type": "graphic",

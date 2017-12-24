@@ -365,6 +365,7 @@
             "Graphics/Backgrounds/Sunset3": ".png",
             "Graphics/Backgrounds/Sunset4": ".png",
             "Graphics/Backgrounds/Background_picture1": ".png",
+            "Graphics/Pictures/Explosion1": ".png",
             "Graphics/Pictures/Metis_CG": ".png",
             "Graphics/Pictures/Metis_CG_Thumb": ".png",
             "Graphics/Pictures/00_key": ".png",
@@ -422,6 +423,7 @@
             "Graphics/Masks/Star_Square": ".png",
             "Graphics/Masks/Star_Square_Ver2": ".png",
             "Graphics/Masks/Star_Ver2": ".png",
+            "Graphics/Fonts/calibri": ".woff",
             "Graphics/Fonts/FORTE": ".woff",
             "Audio/Music/Competitive_-_Fired_Up": [
                 ".ogg"

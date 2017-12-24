@@ -1,1 +1,50 @@
-{"uid":"BA77A09EK7F14A4C2BSA11BE8CC099F00810","isLoaded":true,"lastModificationTime":0,"items":{"name":"Narrator","type":"data_record","order":0,"category":"characters","id":"BA77A09EK7F14A4C2BSA11BE8CC099F00810","isFolder":false,"parentId":"ROOT","data":{"name":"Narrator","textColor":{"red":255,"green":255,"blue":255,"alpha":255},"expressions":[],"index":"BA77A09EK7F14A4C2BSA11BE8CC099F00810","timeTalkingToVoiceVolume":true,"talkingVolume":5,"params":[],"defaultExpressionId":"BF7CB12110894142C299D341A545C910AA86"},"localizableStrings":{}},"summary":["name","type","order"]}
+{
+    "uid": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "",
+        "type": "data_record",
+        "order": 0,
+        "category": "characters",
+        "id": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "data": {
+            "name": {
+                "lcId": "1B06C2E4489ED84A0A3942981D785C7091D3",
+                "defaultText": ""
+            },
+            "textColor": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 255
+            },
+            "expressions": [],
+            "index": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+            "timeTalkingToVoiceVolume": true,
+            "talkingVolume": 5,
+            "params": [],
+            "defaultExpressionId": "BF7CB12110894142C299D341A545C910AA86"
+        },
+        "localizableStrings": {
+            "1B06C2E4489ED84A0A3942981D785C7091D3": {
+                "t": "",
+                "d": null
+            },
+            "142D18AB7ACB5449EF893AD8EF7B066E8C90": {
+                "t": "Unlikely.{W:800}\nThere is currently no substance to any of the messages or text displayed.\nThe most likely case is that we are simply being used to test how well this works on scaled devices and such. Beep bop.",
+                "d": {
+                    "cid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "eid": "DC8F5BA120D2A641417A9361BFBC39AFF256"
+                }
+            }
+        }
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

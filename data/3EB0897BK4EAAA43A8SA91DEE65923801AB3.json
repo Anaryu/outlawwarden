@@ -1,1 +1,34 @@
-{"uid":"3EB0897BK4EAAA43A8SA91DEE65923801AB3","isLoaded":true,"lastModificationTime":0,"items":{"name":"Chapter 1","type":"vn.chapter","order":1,"commands":[{"id":"vn.Chapter","params":{"name":"Chapter 1","description":""},"indent":0}],"localizableStrings":{}},"summary":["name","type","order"]}
+{
+    "uid": "3EB0897BK4EAAA43A8SA91DEE65923801AB3",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Chapter 1",
+        "type": "vn.chapter",
+        "order": 1,
+        "commands": [
+            {
+                "id": "vn.Chapter",
+                "params": {
+                    "name": "Chapter 1",
+                    "description": ""
+                },
+                "indent": 0
+            }
+        ],
+        "localizableStrings": {
+            "8BB5C1FC52BEA24DFE582CF7AF4451BA3A91": {
+                "t": "A wise course of action.{W:800}\nNot that they'd actually care.{W:400} With Gen Corp you either have something they want,{W:200} or they want nothing to do with you.",
+                "d": {
+                    "cid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "eid": "DC8F5BA120D2A641417A9361BFBC39AFF256"
+                }
+            }
+        }
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

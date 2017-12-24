@@ -542,7 +542,7 @@
         },
         "BA77A09EK7F14A4C2BSA11BE8CC099F00810": {
             "items": {
-                "name": "Narrator",
+                "name": "",
                 "type": "data_record",
                 "order": 0
             }
@@ -3017,14 +3017,14 @@
         },
         "FCCF0CB04E70A9476D187099A715CFDBE589": {
             "items": {
-                "name": "Warden",
+                "name": "Shaman",
                 "type": "data_record",
                 "order": 3
             }
         },
         "E6C77BB83BF6A34E7E0B2B44BE8B31199E94": {
             "items": {
-                "name": "Warden",
+                "name": "Shaman",
                 "type": "data_record",
                 "order": 1
             }
@@ -3055,6 +3055,13 @@
                 "name": "Template_BlackWindow",
                 "type": "game_script",
                 "order": 26
+            }
+        },
+        "DA9084DA4EA4C241EF28B72751152A447232": {
+            "items": {
+                "name": "Explosion",
+                "type": "data_record",
+                "order": 1
             }
         }
     }

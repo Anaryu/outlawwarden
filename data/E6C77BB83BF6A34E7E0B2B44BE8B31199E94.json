@@ -1,10 +1,11 @@
 {
     "uid": "E6C77BB83BF6A34E7E0B2B44BE8B31199E94",
     "isLoaded": true,
-    "lastModificationTime": null,
+    "lastModificationTime": 0,
     "items": {
-        "name": "Warden",
+        "name": "Shaman",
         "type": "data_record",
+        "order": 1,
         "category": "characterExpressions",
         "id": "E6C77BB83BF6A34E7E0B2B44BE8B31199E94",
         "isFolder": false,
@@ -14,7 +15,7 @@
                 "start": 0,
                 "end": 0
             },
-            "name": "Warden",
+            "name": "Shaman",
             "idleSpeed": 100,
             "idle": [
                 {
@@ -31,7 +32,15 @@
             "talking": [],
             "index": "E6C77BB83BF6A34E7E0B2B44BE8B31199E94"
         },
-        "order": 1
+        "localizableStrings": {
+            "EBDF55EC9B937541DD1AAF441ECD6F4846C8": {
+                "t": "A wise course of action.{W:800}\nNot that they'd actually care.{W:400} With Gen Corp you either have something they want,{W:200} or they want nothing to do with you.",
+                "d": {
+                    "cid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "eid": "DC8F5BA120D2A641417A9361BFBC39AFF256"
+                }
+            }
+        }
     },
     "summary": [
         "name",

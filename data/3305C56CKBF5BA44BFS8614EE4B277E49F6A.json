@@ -156,6 +156,39 @@
                 "uid": "E9EE438D052DA242EE38C841482ACD7222A6"
             },
             {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "C1AF824B1FD3C14E8A6B9516265F9FFE1663",
+                        "defaultText": "{Y:I}Several months earlier in an underground facility.{Y:N}"
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "D04D6C4B8FFA5343BD8B7CC2CED3A45A1043",
+                "expanded": true
+            },
+            {
                 "id": "vn.CharacterJoinScene",
                 "params": {
                     "viewport": {
@@ -237,7 +270,7 @@
                     },
                     "message": {
                         "lcId": "77C2ADD7880E364E962A2C90334BA41DAC85",
-                        "defaultText": "This is my first line, it had better count."
+                        "defaultText": "So this is the inner labs of Gen Corp Operations."
                     },
                     "position": 0,
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
@@ -250,6 +283,39 @@
                 },
                 "indent": 0,
                 "uid": "95C0DB7A8C36E2459C3B76B0DFE9ED9AA2FF",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "7D67169B3313424B7D2A86C1696934A55D8D",
+                        "defaultText": "Not exactly the most impressive facility I've seen. {W:200}\nStill,{W:200} it's important I make a good first impression, so I shouldn't say anything disparaging."
+                    },
+                    "position": 0,
+                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "3AFDAB73135A964F475ADDE620ED46D232C7",
                 "expanded": true
             },
             {
@@ -352,8 +418,8 @@
                         }
                     },
                     "message": {
-                        "lcId": "741DEC50742B2747DD6BFED107EB77A9FA44",
-                        "defaultText": "Unlikely.{W:800}\nThere is currently no substance to any of the messages or text displayed.\nThe most likely case is that we are simply being used to test how well this works on scaled devices and such. Beep bop."
+                        "lcId": "880BCAE24097E04DB878D9F4FDA0D1222C45",
+                        "defaultText": "A wise course of action.{W:800}\nNot that they'd actually care.{W:400} With Gen Corp you either have something they want,{W:200} or they want nothing to do with you."
                     },
                     "position": 0,
                     "characterId": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
@@ -434,7 +500,7 @@
                 }
             },
             "77C2ADD7880E364E962A2C90334BA41DAC85": {
-                "t": "This is my first line, it had better count.",
+                "t": "So this is the inner labs of Gen Corp Operations.",
                 "d": {
                     "cid": "FCCF0CB04E70A9476D187099A715CFDBE589",
                     "eid": "95C0DB7A8C36E2459C3B76B0DFE9ED9AA2FF"
@@ -449,6 +515,41 @@
             },
             "741DEC50742B2747DD6BFED107EB77A9FA44": {
                 "t": "Unlikely.{W:800}\nThere is currently no substance to any of the messages or text displayed.\nThe most likely case is that we are simply being used to test how well this works on scaled devices and such. Beep bop.",
+                "d": {
+                    "cid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "eid": "DC8F5BA120D2A641417A9361BFBC39AFF256"
+                }
+            },
+            "9B49FD006A999640D349B61857A5FD6FD1D4": {
+                "t": "A wise course of action.{W:800}\nNot that they'd actually care.{W:400} With Gen Corp you either have something they want,{W:200} or they want nothing to do with you.",
+                "d": {
+                    "cid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "eid": "DC8F5BA120D2A641417A9361BFBC39AFF256"
+                }
+            },
+            "C1AF824B1FD3C14E8A6B9516265F9FFE1663": {
+                "t": "{Y:I}Several months earlier in an underground facility.{Y:N}",
+                "d": {
+                    "cid": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "eid": "D04D6C4B8FFA5343BD8B7CC2CED3A45A1043"
+                }
+            },
+            "7D67169B3313424B7D2A86C1696934A55D8D": {
+                "t": "Not exactly the most impressive facility I've seen. {W:200}\nStill,{W:200} it's important I make a good first impression, so I shouldn't say anything disparaging.",
+                "d": {
+                    "cid": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "eid": "3AFDAB73135A964F475ADDE620ED46D232C7"
+                }
+            },
+            "29A8161C5FA40447228AFEF12F0CFEA555EF": {
+                "t": "A wise course of action.{W:800}\nNot that they'd actually care.{W:400} With Gen Corp you either have something they want,{W:200} or they want nothing to do with you.",
+                "d": {
+                    "cid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "eid": "DC8F5BA120D2A641417A9361BFBC39AFF256"
+                }
+            },
+            "880BCAE24097E04DB878D9F4FDA0D1222C45": {
+                "t": "A wise course of action.{W:800}\nNot that they'd actually care.{W:400} With Gen Corp you either have something they want,{W:200} or they want nothing to do with you.",
                 "d": {
                     "cid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
                     "eid": "DC8F5BA120D2A641417A9361BFBC39AFF256"
@@ -493,7 +594,10 @@
                 "index": 0,
                 "scope": 0
             }
-        ]
+        ],
+        "chapter": {
+            "name": "Chapter 1"
+        }
     },
     "summary": [
         "name",
