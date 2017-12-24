@@ -2563,7 +2563,14 @@
     },
     {
         "path": "Graphics/Fonts",
-        "resources": []
+        "resources": [
+            {
+                "name": "FORTE",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 1670143
+            }
+        ]
     },
     {
         "path": "Audio/Music",
@@ -2966,50 +2973,7 @@
     },
     {
         "path": "Live2D",
-        "resources": [
-            {
-                "name": "AkiMuroto",
-                "type": "graphic",
-                "isa": null,
-                "_UID": 1660752
-            },
-            {
-                "name": "HarukaNiimiUniform",
-                "type": "graphic",
-                "isa": null,
-                "_UID": 1637477
-            },
-            {
-                "name": "HikariSanehara",
-                "type": "graphic",
-                "isa": null,
-                "_UID": 1695382
-            },
-            {
-                "name": "MaiSakura",
-                "type": "graphic",
-                "isa": null,
-                "_UID": 1678082
-            },
-            {
-                "name": "NonokaMasaki",
-                "type": "graphic",
-                "isa": null,
-                "_UID": 1714284
-            },
-            {
-                "name": "RinaYunokimodel",
-                "type": "graphic",
-                "isa": null,
-                "_UID": 1732843
-            },
-            {
-                "name": "TomoeMisummodel",
-                "type": "graphic",
-                "isa": null,
-                "_UID": 2535292
-            }
-        ]
+        "resources": []
     },
     {
         "path": "Movies",

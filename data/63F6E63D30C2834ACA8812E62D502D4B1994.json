@@ -1,10 +1,11 @@
 {
     "uid": "63F6E63D30C2834ACA8812E62D502D4B1994",
     "isLoaded": true,
-    "lastModificationTime": null,
+    "lastModificationTime": 0,
     "items": {
-        "name": "Robo",
+        "name": "Gourd",
         "type": "data_record",
+        "order": 2,
         "category": "characterExpressions",
         "id": "63F6E63D30C2834ACA8812E62D502D4B1994",
         "isFolder": false,
@@ -14,12 +15,12 @@
                 "start": 0,
                 "end": 0
             },
-            "name": "Robo",
+            "name": "Gourd",
             "idleSpeed": 100,
             "idle": [
                 {
                     "resource": {
-                        "name": "Package2_8",
+                        "name": "Package2_7",
                         "hue": 0,
                         "opacity": 255,
                         "blending": 0,
@@ -31,7 +32,6 @@
             "talking": [],
             "index": "63F6E63D30C2834ACA8812E62D502D4B1994"
         },
-        "order": 2,
         "localizableStrings": {
             "B5A659C7681260433F3833B0EC5980BA2D5A": {
                 "t": "Line 1\nLine 2\nLine 3\nLine 4\nLine 5\nLine 6",

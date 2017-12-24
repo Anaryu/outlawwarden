@@ -422,6 +422,7 @@
             "Graphics/Masks/Star_Square": ".png",
             "Graphics/Masks/Star_Square_Ver2": ".png",
             "Graphics/Masks/Star_Ver2": ".png",
+            "Graphics/Fonts/FORTE": ".woff",
             "Audio/Music/Competitive_-_Fired_Up": [
                 ".ogg"
             ],
@@ -632,13 +633,6 @@
             "Audio/Sounds/choice_cancel_01": [
                 ".ogg"
             ],
-            "Live2D/AkiMuroto": ".live2d",
-            "Live2D/HarukaNiimiUniform": ".live2d",
-            "Live2D/HikariSanehara": ".live2d",
-            "Live2D/MaiSakura": ".live2d",
-            "Live2D/NonokaMasaki": ".live2d",
-            "Live2D/RinaYunokimodel": ".live2d",
-            "Live2D/TomoeMisummodel": ".live2d",
             "Movies/lrain.webmhd": [
                 ".webm"
             ],

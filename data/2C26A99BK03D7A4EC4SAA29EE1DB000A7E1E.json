@@ -379,8 +379,20 @@
                     "script": "return { x: (Graphics.width - object.dstRect.width * object.zoom.x) / 2, y: (Graphics.height - object.dstRect.height * object.zoom.y) / 2  }"
                 },
                 {
+                    "name": "Talk1",
+                    "script": "return { x: 0, y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                },
+                {
+                    "name": "Talk2",
+                    "script": "return { x: (Graphics.width*.15), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                },
+                {
+                    "name": "Talk3",
+                    "script": "return { x: (Graphics.width*.85) - object.dstRect.width * object.zoom.x, y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                },
+                {
                     "name": "Talk4",
-                    "script": "return { x: Graphics.width - object.dstRect.width * object.zoom.x, y: (Graphics.height-180) - object.dstRect.height * object.zoom.y  }"
+                    "script": "return { x: Graphics.width - object.dstRect.width * object.zoom.x, y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
                 }
             ],
             "gameUid": "304502B35BD91947535B08A80EF36199D14B",

@@ -13,6 +13,7 @@
     },
     "summary": [
         "name",
-        "type"
+        "type",
+        "order"
     ]
 }

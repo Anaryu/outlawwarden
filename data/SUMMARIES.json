@@ -3,9 +3,9 @@
     "items": {
         "07DD30D15041E0DE": {
             "items": {
-                "name": "SampleProject",
+                "name": "OutlawWarden",
                 "type": "project",
-                "version": "1.0.1044"
+                "version": "1.0.1045"
             }
         },
         "07DD714151A3B2EA": {
@@ -1992,7 +1992,8 @@
         "44D3A7A3KD874A4520S85E3E2C4DB67DB739": {
             "items": {
                 "name": "Constants",
-                "type": "game_script"
+                "type": "game_script",
+                "order": 0
             }
         },
         "A9165C3DK50A9A43BDS987EE2B51DACB9DD6": {
@@ -2059,19 +2060,22 @@
         "1608A720KFD18A4DD4S9594EB184F5B483A4": {
             "items": {
                 "name": "Layout_SettingsGeneral",
-                "type": "game_script"
+                "type": "game_script",
+                "order": 6
             }
         },
         "FD44B2D7K6D26A4C65SA039E9FBE4DB83D7E": {
             "items": {
                 "name": "Layout_SettingsMessage",
-                "type": "game_script"
+                "type": "game_script",
+                "order": 7
             }
         },
         "E93D845BK5C9FA4B94SA83FE07BFCDF5FE27": {
             "items": {
                 "name": "Layout_SettingsAudio",
-                "type": "game_script"
+                "type": "game_script",
+                "order": 8
             }
         },
         "97163D89K8F9DA45ADSA51CE47DE4ECE311C": {
@@ -2428,7 +2432,8 @@
         "AC10519C9A3A71497C79E765B689D7E61237": {
             "items": {
                 "name": "Layout_LanguageMenu",
-                "type": "game_script"
+                "type": "game_script",
+                "order": 10
             }
         },
         "07AD818F7526B445304B41609C21B067400A": {
@@ -2514,7 +2519,8 @@
         "3D974630722C354C1A4BFF13774851FF93A0": {
             "items": {
                 "name": "Layout_CGGalleryEntry",
-                "type": "game_script"
+                "type": "game_script",
+                "order": 4
             }
         },
         "79C090A463B8D641194B8A01302FE755D137": {
@@ -2933,7 +2939,8 @@
         "286AC4F92011F1430C8818F8B92C4085E23D": {
             "items": {
                 "name": "Layout_WebStart",
-                "type": "game_script"
+                "type": "game_script",
+                "order": 1
             }
         },
         "920EFE483D87084AAE89EF605DD56451F199": {
@@ -3008,20 +3015,6 @@
                 "type": "game_script"
             }
         },
-        "8A6C7AAB5B659643CE0A60F7F43A774A0CAF": {
-            "items": {
-                "name": "Haruka",
-                "type": "data_record",
-                "order": 1
-            }
-        },
-        "378D0AAC0EC0B8450F2ACC5139B30033BA25": {
-            "items": {
-                "name": "Aki",
-                "type": "data_record",
-                "order": 2
-            }
-        },
         "FCCF0CB04E70A9476D187099A715CFDBE589": {
             "items": {
                 "name": "Warden",
@@ -3045,16 +3038,23 @@
         },
         "63F6E63D30C2834ACA8812E62D502D4B1994": {
             "items": {
-                "name": "Robo",
+                "name": "Gourd",
                 "type": "data_record",
                 "order": 2
             }
         },
         "70A98EDF778EC4466F6BC953EB49DDD83E8A": {
             "items": {
-                "name": "Robo",
+                "name": "Gourd",
                 "type": "data_record",
                 "order": 5
+            }
+        },
+        "E62290B6145F25455959CF775D59124EE518": {
+            "items": {
+                "name": "Template_BlackWindow",
+                "type": "game_script",
+                "order": 26
             }
         }
     }

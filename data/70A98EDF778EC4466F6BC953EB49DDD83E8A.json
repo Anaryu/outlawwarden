@@ -1,10 +1,11 @@
 {
     "uid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
     "isLoaded": true,
-    "lastModificationTime": null,
+    "lastModificationTime": 0,
     "items": {
-        "name": "Robo",
+        "name": "Gourd",
         "type": "data_record",
+        "order": 5,
         "category": "characters",
         "id": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
         "isFolder": false,
@@ -15,7 +16,7 @@
                 "d": null
             },
             "E9888FFE7317844C643976E41A7FB1C0B3C6": {
-                "t": "Robo",
+                "t": "Gourd",
                 "d": null
             },
             "306E3B6811937645E51ACA52650157DBEC71": {
@@ -29,7 +30,7 @@
         "data": {
             "name": {
                 "lcId": "E9888FFE7317844C643976E41A7FB1C0B3C6",
-                "defaultText": "Robo"
+                "defaultText": "Gourd"
             },
             "textColor": {
                 "red": 212,
@@ -45,8 +46,7 @@
             "idleIntensity": 1,
             "params": [],
             "index": "70A98EDF778EC4466F6BC953EB49DDD83E8A"
-        },
-        "order": 5
+        }
     },
     "summary": [
         "name",
