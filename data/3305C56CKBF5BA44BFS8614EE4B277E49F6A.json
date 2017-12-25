@@ -173,7 +173,7 @@
                     },
                     "message": {
                         "lcId": "C1AF824B1FD3C14E8A6B9516265F9FFE1663",
-                        "defaultText": "{Y:I}Several months earlier in an underground facility.{Y:N}"
+                        "defaultText": "{C:3}{Y:I}An unmarked facility deep underground within the laboratories of Generation Corp.{Y:N}{C:0}"
                     },
                     "position": 0,
                     "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
@@ -194,15 +194,15 @@
                     "viewport": {
                         "type": "scene"
                     },
-                    "predefinedPositionId": 12,
+                    "predefinedPositionId": 14,
                     "expressionId": null,
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
-                    "zOrder": 0,
+                    "zOrder": 4,
                     "origin": 0,
                     "blendMode": 0,
                     "positionType": 0,
                     "motionBlur": {
-                        "enabled": 0,
+                        "enabled": 1,
                         "delay": 2,
                         "opacity": 100,
                         "dissolveSpeed": 3
@@ -223,25 +223,25 @@
                     },
                     "animation": {
                         "type": 1,
-                        "movement": 0,
+                        "movement": 2,
                         "mask": {
                             "graphic": null,
                             "vague": 30
                         }
                     },
                     "easing": {
-                        "type": 0,
+                        "type": 1,
                         "inOut": 0
                     },
-                    "duration": 0,
+                    "duration": 30,
                     "waitForCompletion": 1,
                     "fieldFlags": {
-                        "duration": 1,
-                        "easing.type": 1,
-                        "animation.type": 1,
-                        "motionBlur.enabled": 1,
+                        "duration": 0,
+                        "easing.type": 0,
+                        "animation.type": 0,
+                        "motionBlur.enabled": 0,
                         "origin": 0,
-                        "zOrder": 1,
+                        "zOrder": 0,
                         "blendMode": 1,
                         "viewport.type": 1
                     },
@@ -270,7 +270,7 @@
                     },
                     "message": {
                         "lcId": "77C2ADD7880E364E962A2C90334BA41DAC85",
-                        "defaultText": "So this is the inner labs of Gen Corp Operations."
+                        "defaultText": "\"I've never been this deep down into the labs.{W:500}\nIt almost feels abandoned.\""
                     },
                     "position": 0,
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
@@ -286,39 +286,6 @@
                 "expanded": true
             },
             {
-                "id": "gs.ShowMessage",
-                "params": {
-                    "waitForCompletion": 1,
-                    "duration": 15,
-                    "expressionId": null,
-                    "custom": {
-                        "object": {
-                            "x": 0,
-                            "y": 0,
-                            "size": {
-                                "width": 300,
-                                "height": 100
-                            }
-                        }
-                    },
-                    "message": {
-                        "lcId": "7D67169B3313424B7D2A86C1696934A55D8D",
-                        "defaultText": "Not exactly the most impressive facility I've seen. {W:200}\nStill,{W:200} it's important I make a good first impression, so I shouldn't say anything disparaging."
-                    },
-                    "position": 0,
-                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
-                    "partial": 0,
-                    "fieldFlags": {
-                        "duration": 1
-                    },
-                    "expressions": [],
-                    "animations": []
-                },
-                "indent": 0,
-                "uid": "3AFDAB73135A964F475ADDE620ED46D232C7",
-                "expanded": true
-            },
-            {
                 "id": "vn.CharacterJoinScene",
                 "params": {
                     "viewport": {
@@ -327,31 +294,23 @@
                     "predefinedPositionId": 9,
                     "expressionId": null,
                     "characterId": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
-                    "zOrder": 0,
+                    "zOrder": 4,
                     "origin": 0,
                     "blendMode": 0,
                     "positionType": 0,
                     "motionBlur": {
-                        "enabled": 0,
+                        "enabled": 1,
                         "delay": 2,
                         "opacity": 100,
                         "dissolveSpeed": 3
                     },
                     "position": {
-                        "x": 15,
-                        "y": 167,
+                        "x": 786,
+                        "y": 172,
                         "angle": 0,
                         "zoom": 1,
-                        "horizontalFlip": true,
-                        "data": {
-                            "x": 15,
-                            "y": 167,
-                            "zoom": 1,
-                            "angle": 0,
-                            "horizontalFlip": true,
-                            "width": 450,
-                            "height": 450
-                        },
+                        "horizontalFlip": false,
+                        "data": {},
                         "color": {
                             "red": 0,
                             "green": 0,
@@ -360,29 +319,18 @@
                         }
                     },
                     "animation": {
-                        "type": 0,
+                        "type": 1,
                         "movement": 0,
                         "mask": {
-                            "graphic": {
-                                "name": "Circle_Square_Ver2",
-                                "hue": 0,
-                                "opacity": 255,
-                                "blending": 0,
-                                "tone": {
-                                    "red": 0,
-                                    "green": 0,
-                                    "blue": 0,
-                                    "grey": 0
-                                }
-                            },
+                            "graphic": null,
                             "vague": 30
                         }
                     },
                     "easing": {
-                        "type": 0,
+                        "type": 1,
                         "inOut": 0
                     },
-                    "duration": 0,
+                    "duration": 30,
                     "waitForCompletion": 1,
                     "fieldFlags": {
                         "duration": 0,
@@ -391,15 +339,63 @@
                         "motionBlur.enabled": 0,
                         "origin": 0,
                         "zOrder": 0,
-                        "blendMode": 0,
-                        "viewport.type": 0
+                        "blendMode": 1,
+                        "viewport.type": 1
                     },
                     "previewBackground": {
-                        "name": ""
+                        "name": "$live_preview_snapshot"
                     }
                 },
                 "indent": 0,
-                "expanded": false
+                "expanded": false,
+                "uid": "0DF892985F8035491B09ABC4565CC5F9A60A"
+            },
+            {
+                "id": "gs.ChangeNumberVariables",
+                "params": {
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "Lexicon Value",
+                        "index": 4,
+                        "scope": 0,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "targetScope": 0,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 0,
+                    "source": 0,
+                    "sourceValue": 1,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "44A144D9654C344E9458CF86A8B9012DC2C1"
             },
             {
                 "id": "gs.ShowMessage",
@@ -419,7 +415,7 @@
                     },
                     "message": {
                         "lcId": "880BCAE24097E04DB878D9F4FDA0D1222C45",
-                        "defaultText": "A wise course of action.{W:800}\nNot that they'd actually care.{W:400} With Gen Corp you either have something they want,{W:200} or they want nothing to do with you."
+                        "defaultText": "\"Not many make it down here.{W:400}\nOnly the most reliable and powerful of the cleaners can handle the {LK:2}first generator.{LK:E}\""
                     },
                     "position": 0,
                     "characterId": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
@@ -432,6 +428,424 @@
                 },
                 "indent": 0,
                 "uid": "DC8F5BA120D2A641417A9361BFBC39AFF256",
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 10,
+                    "expressionId": null,
+                    "characterId": "6090E9422F115041259877862542624B0FCD",
+                    "zOrder": 1,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 1,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "duration": 30,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 0,
+                        "easing.type": 0,
+                        "animation.type": 0,
+                        "motionBlur.enabled": 0,
+                        "origin": 1,
+                        "zOrder": 0,
+                        "blendMode": 1,
+                        "viewport.type": 1
+                    }
+                },
+                "indent": 0,
+                "uid": "29BDDA5B554EA54F0F1879925CAB5D850074",
+                "expanded": false
+            },
+            {
+                "id": "gs.ChangeNumberVariables",
+                "params": {
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "Lexicon Value",
+                        "index": 4,
+                        "scope": 0,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "targetScope": 0,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 0,
+                    "source": 0,
+                    "sourceValue": 2,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "5D888E364DDEA6410979E5D49A5C3A03C672"
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "0E5F95D853F0C5444B59BAE78980E1CC70B2",
+                        "defaultText": "\"It's a sign of how strong you are and how much they trust you.{W:500}\nFour of us here means we're likely to be sent on a group cleaning mission in the {LK:1}first gate{LK:E} together.\""
+                    },
+                    "position": 0,
+                    "characterId": "6090E9422F115041259877862542624B0FCD",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "2305C2388F15764E141882B860BAB0DC1B5D",
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 13,
+                    "expressionId": null,
+                    "characterId": "9B73E04C5D50B447F06839610ED8EBB0402C",
+                    "zOrder": 1,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 1,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 2,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "duration": 30,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 0,
+                        "easing.type": 0,
+                        "animation.type": 0,
+                        "motionBlur.enabled": 0,
+                        "origin": 1,
+                        "zOrder": 0,
+                        "blendMode": 1,
+                        "viewport.type": 1
+                    }
+                },
+                "indent": 0,
+                "uid": "EC665E73617C34494D899007F524D7A44322",
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "03F617F26B02E146152BA788A2B7AE034C53",
+                        "defaultText": "\"I sense something dark.{W:500}\nBeware bad luck,{W:500} it's thick in the air around us.\""
+                    },
+                    "position": 0,
+                    "characterId": "9B73E04C5D50B447F06839610ED8EBB0402C",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "77C61DE15A069346D649F1A37B1B7BB47E21",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "8B1A0A1E8979C641738B7BC50DC14DE30499",
+                        "defaultText": "\"You're always rambling about 'bad luck'{W:500} - you make your own luck.\""
+                    },
+                    "position": 0,
+                    "characterId": "6090E9422F115041259877862542624B0FCD",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "592968DE74C4534534693495B5904F2279B8",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "F6F53AFC80C4834CD07BAAA8ACA99115401D",
+                        "defaultText": "{C:2}{Y:I}{N:4} glares at {N:3}{W:500}, or at least I think he does.{W:500}\nIt's hard to tell with his face so shadowed under his hood.{Y:N}{C:0}"
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "78DB3B887EC9394A536BF6485AE51E14904E",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "B5C6C1176D8BD643B09B41094ECEEB70FD81",
+                        "defaultText": "\"Ignore my warning at your own peril,{W:400} I thought you wise enough to keep your wits about you.\""
+                    },
+                    "position": 0,
+                    "characterId": "9B73E04C5D50B447F06839610ED8EBB0402C",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "73E6C05F2C2FA945A8299354593E2FA2EEA2",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "3C9000C04774F64D612BF64021BD86F1374D",
+                        "defaultText": "\"Ha!{W:500} My wits are like my guard boy,{W:500} always sharp and ready.\""
+                    },
+                    "position": 0,
+                    "characterId": "6090E9422F115041259877862542624B0FCD",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "1222ADAE20DB3342F698D9777586E1ABDF39",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "08BC272C4887C2423B487568607F67084980",
+                        "defaultText": "{C:2}{Y:I}The conversation halts there.{W:A}\n{N:4} looks dejected and {N:3} as if he made some kind of point.{W:A}\n{N:2}'s attention is elsewhere,{W:500} though that is likely a ruse.{Y:N}{C:0}"
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [
+                        0,
+                        0
+                    ]
+                },
+                "indent": 0,
+                "uid": "FDFFE21E7E0BA8489358EBA6FC374EF22764",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "45E38C3F0A19814DC49A7C95AE78BBE7A76D",
+                        "defaultText": "{C:2}{Y:I}We might all be experienced professionals,{W:500} but we're also independent and have our own personalities.{W:500} Still,{W:500} I have no doubts that if push came to shove they'd work together seamlessly.{Y:N}{C:0}"
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "CD0215214CE650425B3A1C97AB9B32D75C78",
                 "expanded": true
             }
         ],
@@ -500,7 +914,7 @@
                 }
             },
             "77C2ADD7880E364E962A2C90334BA41DAC85": {
-                "t": "So this is the inner labs of Gen Corp Operations.",
+                "t": "\"I've never been this deep down into the labs.{W:500}\nIt almost feels abandoned.\"",
                 "d": {
                     "cid": "FCCF0CB04E70A9476D187099A715CFDBE589",
                     "eid": "95C0DB7A8C36E2459C3B76B0DFE9ED9AA2FF"
@@ -528,17 +942,10 @@
                 }
             },
             "C1AF824B1FD3C14E8A6B9516265F9FFE1663": {
-                "t": "{Y:I}Several months earlier in an underground facility.{Y:N}",
+                "t": "{C:3}{Y:I}An unmarked facility deep underground within the laboratories of Generation Corp.{Y:N}{C:0}",
                 "d": {
                     "cid": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
                     "eid": "D04D6C4B8FFA5343BD8B7CC2CED3A45A1043"
-                }
-            },
-            "7D67169B3313424B7D2A86C1696934A55D8D": {
-                "t": "Not exactly the most impressive facility I've seen. {W:200}\nStill,{W:200} it's important I make a good first impression, so I shouldn't say anything disparaging.",
-                "d": {
-                    "cid": "FCCF0CB04E70A9476D187099A715CFDBE589",
-                    "eid": "3AFDAB73135A964F475ADDE620ED46D232C7"
                 }
             },
             "29A8161C5FA40447228AFEF12F0CFEA555EF": {
@@ -549,11 +956,92 @@
                 }
             },
             "880BCAE24097E04DB878D9F4FDA0D1222C45": {
-                "t": "A wise course of action.{W:800}\nNot that they'd actually care.{W:400} With Gen Corp you either have something they want,{W:200} or they want nothing to do with you.",
+                "t": "\"Not many make it down here.{W:400}\nOnly the most reliable and powerful of the cleaners can handle the {LK:2}first generator.{LK:E}\"",
                 "d": {
                     "cid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
                     "eid": "DC8F5BA120D2A641417A9361BFBC39AFF256"
                 }
+            },
+            "97EA711D3B39C44B217824574F4604EC54FA": {
+                "t": "I sense something dark in the air.{W:500}\nBeware bad luck,{W:500} it is at the strongest today for us all.",
+                "d": {
+                    "cid": "9B73E04C5D50B447F06839610ED8EBB0402C",
+                    "eid": "77C61DE15A069346D649F1A37B1B7BB47E21"
+                }
+            },
+            "03F617F26B02E146152BA788A2B7AE034C53": {
+                "t": "\"I sense something dark.{W:500}\nBeware bad luck,{W:500} it's thick in the air around us.\"",
+                "d": {
+                    "cid": "9B73E04C5D50B447F06839610ED8EBB0402C",
+                    "eid": "77C61DE15A069346D649F1A37B1B7BB47E21"
+                }
+            },
+            "287D43682BA2E140041835358BE96B24F3E0": {
+                "t": "It's a sign of how strong you are and how much they trust you.{W:500}\nFour of us here means we're likely to be sent on a group cleaning mission in the first gate together.",
+                "d": {
+                    "cid": "6090E9422F115041259877862542624B0FCD",
+                    "eid": "2305C2388F15764E141882B860BAB0DC1B5D"
+                }
+            },
+            "0E5F95D853F0C5444B59BAE78980E1CC70B2": {
+                "t": "\"It's a sign of how strong you are and how much they trust you.{W:500}\nFour of us here means we're likely to be sent on a group cleaning mission in the {LK:1}first gate{LK:E} together.\"",
+                "d": {
+                    "cid": "6090E9422F115041259877862542624B0FCD",
+                    "eid": "2305C2388F15764E141882B860BAB0DC1B5D"
+                }
+            },
+            "8B1A0A1E8979C641738B7BC50DC14DE30499": {
+                "t": "\"You're always rambling about 'bad luck'{W:500} - you make your own luck.\"",
+                "d": {
+                    "cid": "6090E9422F115041259877862542624B0FCD",
+                    "eid": "592968DE74C4534534693495B5904F2279B8"
+                }
+            },
+            "22303C806012C6437688720236486A39BE0F": {
+                "t": "{C:1}{N:4} glares at {N:3}{W:500}, or at least I think he does.{W:500}\nIt's hard to tell with his face so shadowed under his hood.{C:0}",
+                "d": {
+                    "cid": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "eid": "78DB3B887EC9394A536BF6485AE51E14904E"
+                }
+            },
+            "F6F53AFC80C4834CD07BAAA8ACA99115401D": {
+                "t": "{C:2}{Y:I}{N:4} glares at {N:3}{W:500}, or at least I think he does.{W:500}\nIt's hard to tell with his face so shadowed under his hood.{Y:N}{C:0}",
+                "d": {
+                    "cid": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "eid": "78DB3B887EC9394A536BF6485AE51E14904E"
+                }
+            },
+            "B5C6C1176D8BD643B09B41094ECEEB70FD81": {
+                "t": "\"Ignore my warning at your own peril,{W:400} I thought you wise enough to keep your wits about you.\"",
+                "d": {
+                    "cid": "9B73E04C5D50B447F06839610ED8EBB0402C",
+                    "eid": "73E6C05F2C2FA945A8299354593E2FA2EEA2"
+                }
+            },
+            "3C9000C04774F64D612BF64021BD86F1374D": {
+                "t": "\"Ha!{W:500} My wits are like my guard boy,{W:500} always sharp and ready.\"",
+                "d": {
+                    "cid": "6090E9422F115041259877862542624B0FCD",
+                    "eid": "1222ADAE20DB3342F698D9777586E1ABDF39"
+                }
+            },
+            "45E38C3F0A19814DC49A7C95AE78BBE7A76D": {
+                "t": "{C:2}{Y:I}We might all be experienced professionals,{W:500} but we're also independent and have our own personalities.{W:500} Still,{W:500} I have no doubts that if push came to shove they'd work together seamlessly.{Y:N}{C:0}",
+                "d": {
+                    "cid": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "eid": "CD0215214CE650425B3A1C97AB9B32D75C78"
+                }
+            },
+            "08BC272C4887C2423B487568607F67084980": {
+                "t": "{C:2}{Y:I}The conversation halts there.{W:A}\n{N:4} looks dejected and {N:3} as if he made some kind of point.{W:A}\n{N:2}'s attention is elsewhere,{W:500} though that is likely a ruse.{Y:N}{C:0}",
+                "d": {
+                    "cid": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "eid": "FDFFE21E7E0BA8489358EBA6FC374EF22764"
+                }
+            },
+            "A25BD1CE0937614888387FF5385F599A3F1A": {
+                "t": "{SZ:45}Lexicon Updated!",
+                "d": {}
             }
         },
         "numberVariables": [
@@ -572,6 +1060,42 @@
                 "name": "Super Loc",
                 "index": 2,
                 "scope": 0
+            },
+            {
+                "name": "",
+                "index": 3,
+                "scope": 1
+            },
+            {
+                "name": "Lexicon Value",
+                "index": 4,
+                "scope": 0,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "",
+                "index": 5,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 6,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 7,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 8,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 9,
+                "scope": 1
             }
         ],
         "booleanVariables": [

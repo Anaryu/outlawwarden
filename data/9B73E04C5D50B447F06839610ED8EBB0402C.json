@@ -1,0 +1,56 @@
+{
+    "uid": "9B73E04C5D50B447F06839610ED8EBB0402C",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Levi",
+        "type": "data_record",
+        "category": "characters",
+        "id": "9B73E04C5D50B447F06839610ED8EBB0402C",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "localizableStrings": {
+            "D58012B24931A549DB1AF7C51C2A440FB2D5": {
+                "t": "",
+                "d": null
+            },
+            "39F2DD003B08C241DE482DB11BE30F4ECA11": {
+                "t": "Levi",
+                "d": null
+            },
+            "DC4EEC8904C95642E64B24624D7DD3AED556": {
+                "t": "It's a sign of how strong you are and how much they trust you.{W:500}\nFour of us here means we're likely to be sent on a group cleaning mission in the first gate together.",
+                "d": {
+                    "cid": "6090E9422F115041259877862542624B0FCD",
+                    "eid": "2305C2388F15764E141882B860BAB0DC1B5D"
+                }
+            }
+        },
+        "data": {
+            "name": {
+                "lcId": "39F2DD003B08C241DE482DB11BE30F4ECA11",
+                "defaultText": "Levi"
+            },
+            "textColor": {
+                "red": 57,
+                "green": 88,
+                "blue": 167,
+                "alpha": 255
+            },
+            "defaultExpressionId": "57276A6456FDD24B52082AD30D346A7C49CB",
+            "timeTalkingToVoiceVolume": true,
+            "talkingVolume": 5,
+            "lipSyncSensitivity": 1,
+            "breathIntensity": 1,
+            "idleIntensity": 1,
+            "params": [],
+            "index": "9B73E04C5D50B447F06839610ED8EBB0402C"
+        },
+        "order": 4
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

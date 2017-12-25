@@ -302,7 +302,7 @@
             "items": {
                 "name": "Unnamed",
                 "type": "data_record",
-                "order": 1
+                "order": 0
             }
         },
         "2C26A99BK03D7A4EC4SAA29EE1DB000A7E1E": {
@@ -3017,14 +3017,14 @@
         },
         "FCCF0CB04E70A9476D187099A715CFDBE589": {
             "items": {
-                "name": "Shaman",
+                "name": "Ava",
                 "type": "data_record",
-                "order": 3
+                "order": 1
             }
         },
         "E6C77BB83BF6A34E7E0B2B44BE8B31199E94": {
             "items": {
-                "name": "Shaman",
+                "name": "Ava",
                 "type": "data_record",
                 "order": 1
             }
@@ -3038,16 +3038,16 @@
         },
         "63F6E63D30C2834ACA8812E62D502D4B1994": {
             "items": {
-                "name": "Gourd",
+                "name": "Chloe",
                 "type": "data_record",
                 "order": 2
             }
         },
         "70A98EDF778EC4466F6BC953EB49DDD83E8A": {
             "items": {
-                "name": "Gourd",
+                "name": "Chloe",
                 "type": "data_record",
-                "order": 5
+                "order": 2
             }
         },
         "E62290B6145F25455959CF775D59124EE518": {
@@ -3060,6 +3060,41 @@
         "DA9084DA4EA4C241EF28B72751152A447232": {
             "items": {
                 "name": "Explosion",
+                "type": "data_record",
+                "order": 1
+            }
+        },
+        "6090E9422F115041259877862542624B0FCD": {
+            "items": {
+                "name": "Greyson",
+                "type": "data_record",
+                "order": 3
+            }
+        },
+        "9B73E04C5D50B447F06839610ED8EBB0402C": {
+            "items": {
+                "name": "Levi",
+                "type": "data_record",
+                "order": 4
+            }
+        },
+        "EE8D02F32AADB643788850124DEED84666E7": {
+            "items": {
+                "name": "Greyson",
+                "type": "data_record",
+                "order": 3
+            }
+        },
+        "57276A6456FDD24B52082AD30D346A7C49CB": {
+            "items": {
+                "name": "Levi",
+                "type": "data_record",
+                "order": 4
+            }
+        },
+        "637BBE918A696545E6096E966360BC9C41DC": {
+            "items": {
+                "name": "Lexicon Update",
                 "type": "data_record",
                 "order": 1
             }

@@ -1,13 +1,12 @@
 {
-    "uid": "63F6E63D30C2834ACA8812E62D502D4B1994",
+    "uid": "EE8D02F32AADB643788850124DEED84666E7",
     "isLoaded": true,
-    "lastModificationTime": 0,
+    "lastModificationTime": null,
     "items": {
-        "name": "Chloe",
+        "name": "Greyson",
         "type": "data_record",
-        "order": 2,
         "category": "characterExpressions",
-        "id": "63F6E63D30C2834ACA8812E62D502D4B1994",
+        "id": "EE8D02F32AADB643788850124DEED84666E7",
         "isFolder": false,
         "parentId": "ROOT",
         "data": {
@@ -15,12 +14,12 @@
                 "start": 0,
                 "end": 0
             },
-            "name": "Chloe",
+            "name": "Greyson",
             "idleSpeed": 100,
             "idle": [
                 {
                     "resource": {
-                        "name": "Package1_5",
+                        "name": "Package1_7",
                         "hue": 0,
                         "opacity": 255,
                         "blending": 0,
@@ -30,17 +29,9 @@
             ],
             "talkingSpeed": 100,
             "talking": [],
-            "index": "63F6E63D30C2834ACA8812E62D502D4B1994"
+            "index": "EE8D02F32AADB643788850124DEED84666E7"
         },
-        "localizableStrings": {
-            "B5A659C7681260433F3833B0EC5980BA2D5A": {
-                "t": "Line 1\nLine 2\nLine 3\nLine 4\nLine 5\nLine 6",
-                "d": {
-                    "cid": "8A6C7AAB5B659643CE0A60F7F43A774A0CAF",
-                    "eid": "EC88F160163CE541F82B0308412D8606EAF6"
-                }
-            }
-        }
+        "order": 3
     },
     "summary": [
         "name",

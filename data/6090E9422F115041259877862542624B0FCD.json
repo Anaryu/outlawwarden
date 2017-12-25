@@ -1,45 +1,45 @@
 {
-    "uid": "FCCF0CB04E70A9476D187099A715CFDBE589",
+    "uid": "6090E9422F115041259877862542624B0FCD",
     "isLoaded": true,
-    "lastModificationTime": 0,
+    "lastModificationTime": null,
     "items": {
-        "name": "Ava",
+        "name": "Greyson",
         "type": "data_record",
-        "order": 1,
         "category": "characters",
-        "id": "FCCF0CB04E70A9476D187099A715CFDBE589",
+        "id": "6090E9422F115041259877862542624B0FCD",
         "isFolder": false,
         "parentId": "ROOT",
         "localizableStrings": {
-            "4607D81A7E1F444BFA28F7A72DD9457FEC7C": {
+            "847256AA82678549013BEB72AA7572D7C22F": {
                 "t": "",
                 "d": null
             },
-            "31889DFB643A2649452922619D327F71B3A9": {
-                "t": "Ava",
+            "53467BBB678C544E8E78CA627405C48BF694": {
+                "t": "Greyson",
                 "d": null
             }
         },
         "data": {
             "name": {
-                "lcId": "31889DFB643A2649452922619D327F71B3A9",
-                "defaultText": "Ava"
+                "lcId": "53467BBB678C544E8E78CA627405C48BF694",
+                "defaultText": "Greyson"
             },
             "textColor": {
-                "red": 62,
-                "green": 176,
-                "blue": 156,
+                "red": 234,
+                "green": 43,
+                "blue": 67,
                 "alpha": 255
             },
-            "defaultExpressionId": "E6C77BB83BF6A34E7E0B2B44BE8B31199E94",
+            "defaultExpressionId": "EE8D02F32AADB643788850124DEED84666E7",
             "timeTalkingToVoiceVolume": true,
             "talkingVolume": 5,
             "lipSyncSensitivity": 1,
             "breathIntensity": 1,
             "idleIntensity": 1,
             "params": [],
-            "index": "FCCF0CB04E70A9476D187099A715CFDBE589"
-        }
+            "index": "6090E9422F115041259877862542624B0FCD"
+        },
+        "order": 3
     },
     "summary": [
         "name",

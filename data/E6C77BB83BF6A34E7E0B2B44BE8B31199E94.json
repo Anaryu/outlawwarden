@@ -3,7 +3,7 @@
     "isLoaded": true,
     "lastModificationTime": 0,
     "items": {
-        "name": "Shaman",
+        "name": "Ava",
         "type": "data_record",
         "order": 1,
         "category": "characterExpressions",
@@ -15,7 +15,7 @@
                 "start": 0,
                 "end": 0
             },
-            "name": "Shaman",
+            "name": "Ava",
             "idleSpeed": 100,
             "idle": [
                 {

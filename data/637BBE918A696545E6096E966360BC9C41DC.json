@@ -1,0 +1,130 @@
+{
+    "uid": "637BBE918A696545E6096E966360BC9C41DC",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Lexicon Update",
+        "type": "data_record",
+        "order": 1,
+        "category": "commonEvents",
+        "id": "637BBE918A696545E6096E966360BC9C41DC",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "data": {
+            "name": "Lexicon Update",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": false,
+            "singleInstance": false,
+            "inline": true,
+            "parameters": [],
+            "commands": [
+                {
+                    "id": "gs.ShowText",
+                    "params": {
+                        "numberDomain": "com.degica.vnm.default",
+                        "viewport": {
+                            "type": "ui"
+                        },
+                        "predefinedPositionId": 8,
+                        "positionType": 0,
+                        "number": 0,
+                        "duration": 30,
+                        "waitForCompletion": 0,
+                        "blendMode": 0,
+                        "positionOrigin": 0,
+                        "origin": 0,
+                        "zOrder": 0,
+                        "text": {
+                            "lcId": "A25BD1CE0937614888387FF5385F599A3F1A",
+                            "defaultText": "{SZ:45}Lexicon Updated!"
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "easing": {
+                            "type": 0,
+                            "inOut": 1
+                        },
+                        "animation": {
+                            "type": 1,
+                            "movement": 0,
+                            "mask": {
+                                "graphic": null,
+                                "vague": 30
+                            }
+                        },
+                        "fieldFlags": {
+                            "duration": 0,
+                            "easing.type": 1,
+                            "animation.type": 1,
+                            "origin": 1,
+                            "positionOrigin": 1,
+                            "zOrder": 1,
+                            "blendMode": 1,
+                            "viewport.type": 1
+                        },
+                        "expressions": [],
+                        "animations": []
+                    },
+                    "indent": 0,
+                    "expanded": true
+                },
+                {
+                    "id": "gs.WaitCommand",
+                    "params": {
+                        "time": 60
+                    },
+                    "indent": 0,
+                    "uid": "F7B46C3D5C7BD147C97B4D216D05F8AB7003"
+                },
+                {
+                    "id": "gs.EraseText",
+                    "params": {
+                        "numberDomain": "com.degica.vnm.default",
+                        "number": 0,
+                        "duration": 0,
+                        "waitForCompletion": 0,
+                        "easing": {
+                            "type": 0,
+                            "inOut": 1
+                        },
+                        "animation": {
+                            "type": 1,
+                            "movement": 0,
+                            "mask": {
+                                "graphic": null,
+                                "vague": 30
+                            }
+                        },
+                        "fieldFlags": {
+                            "duration": 1
+                        }
+                    },
+                    "indent": 0
+                }
+            ],
+            "index": "637BBE918A696545E6096E966360BC9C41DC",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ]
+        },
+        "localizableStrings": {
+            "7C1D5515162EA7475E0B3955EA7A56703D8B": {
+                "t": "{SZ:45}Lexicon Updated!",
+                "d": {}
+            }
+        }
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ]
+}

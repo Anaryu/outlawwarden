@@ -3,9 +3,9 @@
     "isLoaded": true,
     "lastModificationTime": 0,
     "items": {
-        "name": "Gourd",
+        "name": "Chloe",
         "type": "data_record",
-        "order": 5,
+        "order": 2,
         "category": "characters",
         "id": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
         "isFolder": false,
@@ -16,7 +16,7 @@
                 "d": null
             },
             "E9888FFE7317844C643976E41A7FB1C0B3C6": {
-                "t": "Gourd",
+                "t": "Chloe",
                 "d": null
             },
             "306E3B6811937645E51ACA52650157DBEC71": {
@@ -30,7 +30,7 @@
         "data": {
             "name": {
                 "lcId": "E9888FFE7317844C643976E41A7FB1C0B3C6",
-                "defaultText": "Gourd"
+                "defaultText": "Chloe"
             },
             "textColor": {
                 "red": 212,

@@ -1,13 +1,12 @@
 {
-    "uid": "63F6E63D30C2834ACA8812E62D502D4B1994",
+    "uid": "57276A6456FDD24B52082AD30D346A7C49CB",
     "isLoaded": true,
-    "lastModificationTime": 0,
+    "lastModificationTime": null,
     "items": {
-        "name": "Chloe",
+        "name": "Levi",
         "type": "data_record",
-        "order": 2,
         "category": "characterExpressions",
-        "id": "63F6E63D30C2834ACA8812E62D502D4B1994",
+        "id": "57276A6456FDD24B52082AD30D346A7C49CB",
         "isFolder": false,
         "parentId": "ROOT",
         "data": {
@@ -15,12 +14,12 @@
                 "start": 0,
                 "end": 0
             },
-            "name": "Chloe",
+            "name": "Levi",
             "idleSpeed": 100,
             "idle": [
                 {
                     "resource": {
-                        "name": "Package1_5",
+                        "name": "Package2_3",
                         "hue": 0,
                         "opacity": 255,
                         "blending": 0,
@@ -30,17 +29,9 @@
             ],
             "talkingSpeed": 100,
             "talking": [],
-            "index": "63F6E63D30C2834ACA8812E62D502D4B1994"
+            "index": "57276A6456FDD24B52082AD30D346A7C49CB"
         },
-        "localizableStrings": {
-            "B5A659C7681260433F3833B0EC5980BA2D5A": {
-                "t": "Line 1\nLine 2\nLine 3\nLine 4\nLine 5\nLine 6",
-                "d": {
-                    "cid": "8A6C7AAB5B659643CE0A60F7F43A774A0CAF",
-                    "eid": "EC88F160163CE541F82B0308412D8606EAF6"
-                }
-            }
-        }
+        "order": 4
     },
     "summary": [
         "name",

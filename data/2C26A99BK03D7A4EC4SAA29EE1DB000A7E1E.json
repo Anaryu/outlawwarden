@@ -316,7 +316,15 @@
             "menuBackground": {
                 "name": "bg-generic"
             },
-            "colors": [],
+            "colors": [
+                null,
+                {
+                    "red": 170,
+                    "green": 170,
+                    "blue": 204,
+                    "alpha": 255
+                }
+            ],
             "sounds": [
                 {
                     "name": ""
@@ -384,11 +392,19 @@
                 },
                 {
                     "name": "Talk2",
-                    "script": "return { x: (Graphics.width*.15), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                    "script": "return { x: (Graphics.width*.21), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                },
+                {
+                    "name": "Talk2.5",
+                    "script": "return { x: (Graphics.width*.26), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
                 },
                 {
                     "name": "Talk3",
-                    "script": "return { x: (Graphics.width*.85) - object.dstRect.width * object.zoom.x, y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                    "script": "return { x: (Graphics.width*.77) - object.dstRect.width * object.zoom.x, y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                },
+                {
+                    "name": "Talk3.5",
+                    "script": "return { x: (Graphics.width*.83) - object.dstRect.width * object.zoom.x, y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
                 },
                 {
                     "name": "Talk4",
@@ -436,6 +452,20 @@
                 "d": {
                     "cid": "378D0AAC0EC0B8450F2ACC5139B30033BA25",
                     "eid": "0EFAFA3E23DFC9478A5A27D2FB5645C4FAEA"
+                }
+            },
+            "499635A25766A344953B32F2057402284FBA": {
+                "t": "I sense something dark in the air.{W:500}\nBeware bad luck,{W:500} it is at the strongest today for us all.",
+                "d": {
+                    "cid": "9B73E04C5D50B447F06839610ED8EBB0402C",
+                    "eid": "77C61DE15A069346D649F1A37B1B7BB47E21"
+                }
+            },
+            "CBD41490599BC74290295A688103AFF6BF89": {
+                "t": "{C:1}{N:4} glares at {N:3}{W:500}, or at least I think he does.{W:500}\nIt's hard to tell with his face so shadowed under his hood.{C:0}",
+                "d": {
+                    "cid": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "eid": "78DB3B887EC9394A536BF6485AE51E14904E"
                 }
             }
         }
