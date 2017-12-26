@@ -194,7 +194,7 @@
                     "viewport": {
                         "type": "scene"
                     },
-                    "predefinedPositionId": 14,
+                    "predefinedPositionId": 10,
                     "expressionId": null,
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
                     "zOrder": 4,
@@ -414,8 +414,8 @@
                         }
                     },
                     "message": {
-                        "lcId": "880BCAE24097E04DB878D9F4FDA0D1222C45",
-                        "defaultText": "\"Not many make it down here.{W:400}\nOnly the most reliable and powerful of the cleaners can handle the {LK:2}first generator.{LK:E}\""
+                        "lcId": "D077507F74F1294DB898A205DCDF207037B9",
+                        "defaultText": "\"Not many make it down here.{W:400}\nOnly the most reliable cleaners can handle the {C:3}{LK:1}first generator.{LK:E}{C:0}\""
                     },
                     "position": 0,
                     "characterId": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
@@ -956,7 +956,7 @@
                 }
             },
             "880BCAE24097E04DB878D9F4FDA0D1222C45": {
-                "t": "\"Not many make it down here.{W:400}\nOnly the most reliable and powerful of the cleaners can handle the {LK:2}first generator.{LK:E}\"",
+                "t": "\"Not many make it down here.{W:400}\nOnly the most reliable cleaners can handle the {C:3}{LK:1}first generator.{SLK:E}{C:0}\"",
                 "d": {
                     "cid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
                     "eid": "DC8F5BA120D2A641417A9361BFBC39AFF256"
@@ -1042,6 +1042,13 @@
             "A25BD1CE0937614888387FF5385F599A3F1A": {
                 "t": "{SZ:45}Lexicon Updated!",
                 "d": {}
+            },
+            "D077507F74F1294DB898A205DCDF207037B9": {
+                "t": "\"Not many make it down here.{W:400}\nOnly the most reliable cleaners can handle the {C:3}{LK:1}first generator.{LK:E}{C:0}\"",
+                "d": {
+                    "cid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "eid": "DC8F5BA120D2A641417A9361BFBC39AFF256"
+                }
             }
         },
         "numberVariables": [

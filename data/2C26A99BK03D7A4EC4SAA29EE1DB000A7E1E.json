@@ -323,6 +323,12 @@
                     "green": 170,
                     "blue": 204,
                     "alpha": 255
+                },
+                {
+                    "red": 164,
+                    "green": 207,
+                    "blue": 255,
+                    "alpha": 255
                 }
             ],
             "sounds": [
@@ -387,27 +393,59 @@
                     "script": "return { x: (Graphics.width - object.dstRect.width * object.zoom.x) / 2, y: (Graphics.height - object.dstRect.height * object.zoom.y) / 2  }"
                 },
                 {
-                    "name": "Talk1",
+                    "name": "Talk0",
                     "script": "return { x: 0, y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
                 },
                 {
-                    "name": "Talk2",
-                    "script": "return { x: (Graphics.width*.21), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                    "name": "Talk1",
+                    "script": "return { x: Graphics.width - (object.dstRect.width/2) * object.zoom.x, y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
                 },
                 {
-                    "name": "Talk2.5",
-                    "script": "return { x: (Graphics.width*.26), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                    "name": "Talk2",
+                    "script": "return { x: (Graphics.width*.16) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
                 },
                 {
                     "name": "Talk3",
-                    "script": "return { x: (Graphics.width*.77) - object.dstRect.width * object.zoom.x, y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
-                },
-                {
-                    "name": "Talk3.5",
-                    "script": "return { x: (Graphics.width*.83) - object.dstRect.width * object.zoom.x, y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                    "script": "return { x: (Graphics.width*.24) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
                 },
                 {
                     "name": "Talk4",
+                    "script": "return { x: (Graphics.width*.32) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                },
+                {
+                    "name": "Talk5",
+                    "script": "return { x: (Graphics.width*.40) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                },
+                {
+                    "name": "Talk6",
+                    "script": "return { x: (Graphics.width*.48) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                },
+                {
+                    "name": "Talk7",
+                    "script": "return { x: (Graphics.width*.56) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                },
+                {
+                    "name": "Talk8",
+                    "script": "return { x: (Graphics.width*.64) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                },
+                {
+                    "name": "Talk9",
+                    "script": "return { x: (Graphics.width*.72) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                },
+                {
+                    "name": "Talk10",
+                    "script": "return { x: (Graphics.width*.8) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                },
+                {
+                    "name": "Talk11",
+                    "script": "return { x: (Graphics.width*.88) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                },
+                {
+                    "name": "Talk12",
+                    "script": "return { x: (Graphics.width*.96) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                },
+                {
+                    "name": "TalkEnd",
                     "script": "return { x: Graphics.width - object.dstRect.width * object.zoom.x, y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
                 }
             ],
@@ -466,6 +504,13 @@
                 "d": {
                     "cid": "FCCF0CB04E70A9476D187099A715CFDBE589",
                     "eid": "78DB3B887EC9394A536BF6485AE51E14904E"
+                }
+            },
+            "B9284D795739134BF909D7166E4FB42DE509": {
+                "t": "\"Not many make it down here.{W:400}\nOnly the most reliable cleaners can handle the {C:3}{LK:1}first generator.{SLK:E}{C:0}\"",
+                "d": {
+                    "cid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "eid": "DC8F5BA120D2A641417A9361BFBC39AFF256"
                 }
             }
         }
