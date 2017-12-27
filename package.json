@@ -1,5 +1,5 @@
 {
-    "name": "VNM_Test_vnm_outlawwarden",
+    "name": "VNM_Test_OutlawWarden",
     "main": "GameOffline.html",
     "chromium-args": "--ignore-gpu-blacklist",
     "window": {
