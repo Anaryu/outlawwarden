@@ -2989,6 +2989,10 @@
         "path": "Live2D",
         "resources": [
             {
+                "name": "Ava.model",
+                "type": "graphic"
+            },
+            {
                 "name": "Package1_2.model",
                 "type": "graphic",
                 "isa": null,

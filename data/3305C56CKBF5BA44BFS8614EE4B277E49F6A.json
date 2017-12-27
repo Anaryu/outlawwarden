@@ -193,7 +193,7 @@
                     "predefinedPositionId": 12,
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
                     "model": {
-                        "name": "Package1_2.model",
+                        "name": "Ava.model",
                         "hue": 0,
                         "opacity": 255,
                         "blending": 0,
@@ -256,12 +256,20 @@
                 "expanded": false
             },
             {
+                "id": "gs.WaitCommand",
+                "params": {
+                    "time": 120
+                },
+                "indent": 0,
+                "uid": "F86CF2E7381D484732992A6929A42A0B76D8"
+            },
+            {
                 "id": "vn.L2DExpression",
                 "params": {
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
                     "data": {
                         "model": {
-                            "name": "Package1_2.model",
+                            "name": "Ava.model",
                             "hue": 0,
                             "opacity": 255,
                             "blending": 0,
@@ -271,7 +279,7 @@
                                 "blue": 0
                             }
                         },
-                        "expression": "Normal.exp.json",
+                        "expression": "Normal",
                         "position": {
                             "x": 0,
                             "y": 0,
@@ -282,7 +290,7 @@
                             }
                         }
                     },
-                    "fadeInTime": 0,
+                    "fadeInTime": 500,
                     "fieldFlags": {
                         "fadeInTime": 0
                     },
@@ -332,7 +340,7 @@
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
                     "data": {
                         "model": {
-                            "name": "Package1_2.model",
+                            "name": "Ava.model",
                             "hue": 0,
                             "opacity": 255,
                             "blending": 0,
@@ -342,7 +350,7 @@
                                 "blue": 0
                             }
                         },
-                        "expression": "Sad.exp.json",
+                        "expression": "Angry",
                         "position": {
                             "x": 0,
                             "y": 0,
@@ -353,7 +361,7 @@
                             }
                         }
                     },
-                    "fadeInTime": 2000,
+                    "fadeInTime": 500,
                     "fieldFlags": {
                         "fadeInTime": 0
                     },
@@ -403,7 +411,7 @@
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
                     "data": {
                         "model": {
-                            "name": "Package1_2.model",
+                            "name": "Ava.model",
                             "hue": 0,
                             "opacity": 255,
                             "blending": 0,
@@ -413,7 +421,7 @@
                                 "blue": 0
                             }
                         },
-                        "expression": "Normal.exp.json",
+                        "expression": "Angry (Undo)",
                         "position": {
                             "x": 0,
                             "y": 0,
@@ -424,7 +432,7 @@
                             }
                         }
                     },
-                    "fadeInTime": 0,
+                    "fadeInTime": 100,
                     "fieldFlags": {
                         "fadeInTime": 0
                     },
@@ -434,6 +442,52 @@
                 },
                 "indent": 0,
                 "uid": "6FF7D713020C10495658A634520E601FC265"
+            },
+            {
+                "id": "gs.WaitCommand",
+                "params": {
+                    "time": 600
+                },
+                "indent": 0,
+                "uid": "4852BF90877EA546A99B86518CCEB5BEAB6E"
+            },
+            {
+                "id": "vn.L2DExpression",
+                "params": {
+                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "data": {
+                        "model": {
+                            "name": "Ava.model",
+                            "hue": 0,
+                            "opacity": 255,
+                            "blending": 0,
+                            "tone": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0
+                            }
+                        },
+                        "expression": "Sad",
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "zoom": {
+                                "x": 1,
+                                "y": 1,
+                                "d": 1
+                            }
+                        }
+                    },
+                    "fadeInTime": 500,
+                    "fieldFlags": {
+                        "fadeInTime": 0
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "475F8B3F6266C447418BE4D1966E4CFC1780"
             },
             {
                 "id": "gs.ShowMessage",
@@ -474,7 +528,7 @@
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
                     "data": {
                         "model": {
-                            "name": "Package1_2.model",
+                            "name": "Ava.model",
                             "hue": 0,
                             "opacity": 255,
                             "blending": 0,
@@ -484,6 +538,7 @@
                                 "blue": 0
                             }
                         },
+                        "expression": "Sad (Undo)",
                         "position": {
                             "x": 0,
                             "y": 0,
@@ -494,9 +549,55 @@
                             }
                         }
                     },
-                    "fadeInTime": 1000,
+                    "fadeInTime": 100,
                     "fieldFlags": {
-                        "fadeInTime": 1
+                        "fadeInTime": 0
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "E55F75897080C842D47A93A80B1BFBC649CB"
+            },
+            {
+                "id": "gs.WaitCommand",
+                "params": {
+                    "time": 6
+                },
+                "indent": 0,
+                "uid": "F31B12BA9E11794B387AFCE1A11459E266B2"
+            },
+            {
+                "id": "vn.L2DExpression",
+                "params": {
+                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "data": {
+                        "model": {
+                            "name": "Ava.model",
+                            "hue": 0,
+                            "opacity": 255,
+                            "blending": 0,
+                            "tone": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0
+                            }
+                        },
+                        "expression": "Laughing",
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "zoom": {
+                                "x": 1,
+                                "y": 1,
+                                "d": 1
+                            }
+                        }
+                    },
+                    "fadeInTime": 500,
+                    "fieldFlags": {
+                        "fadeInTime": 0
                     },
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
@@ -540,6 +641,44 @@
                 "indent": 0,
                 "uid": "68338FAA25E7C24D3B8BD8D06AC5029169CB",
                 "expanded": true
+            },
+            {
+                "id": "vn.L2DExpression",
+                "params": {
+                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "data": {
+                        "model": {
+                            "name": "Ava.model",
+                            "hue": 0,
+                            "opacity": 255,
+                            "blending": 0,
+                            "tone": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0
+                            }
+                        },
+                        "expression": "Laughing (Undo)",
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "zoom": {
+                                "x": 1,
+                                "y": 1,
+                                "d": 1
+                            }
+                        }
+                    },
+                    "fadeInTime": 100,
+                    "fieldFlags": {
+                        "fadeInTime": 0
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "FDD94AB8488C4140575BA8282AD920DC108D"
             },
             {
                 "id": "gs.ShowMessage",

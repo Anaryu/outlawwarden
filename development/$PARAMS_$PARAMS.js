@@ -4,7 +4,6 @@ if(!window.$PARAMS) { window.$PARAMS = {} };Object.mixin(window.$PARAMS, {
         "height": 720
     },
     "fontFamilies": [
-        "calibri",
         "FORTE"
     ],
     "testOffline": true,
