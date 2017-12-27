@@ -635,6 +635,8 @@
             "Audio/Sounds/choice_cancel_01": [
                 ".ogg"
             ],
+            "Live2D/HarukaNiimiUniform": ".live2d",
+            "Live2D/Package1_2.model": ".live2d",
             "Movies/lrain.webmhd": [
                 ".webm"
             ],

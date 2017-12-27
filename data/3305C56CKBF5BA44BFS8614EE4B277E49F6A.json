@@ -189,59 +189,65 @@
                 "expanded": true
             },
             {
-                "id": "vn.CharacterJoinScene",
+                "id": "vn.L2DJoinScene",
                 "params": {
                     "viewport": {
                         "type": "scene"
                     },
-                    "predefinedPositionId": 10,
-                    "expressionId": null,
+                    "predefinedPositionId": 16,
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
-                    "zOrder": 4,
+                    "model": {
+                        "name": "Package1_2.model",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "zOrder": 0,
                     "origin": 0,
                     "blendMode": 0,
                     "positionType": 0,
                     "motionBlur": {
-                        "enabled": 1,
+                        "enabled": 0,
                         "delay": 2,
                         "opacity": 100,
                         "dissolveSpeed": 3
                     },
                     "position": {
-                        "x": 786,
-                        "y": 172,
-                        "angle": 0,
-                        "zoom": 1,
-                        "horizontalFlip": false,
-                        "data": {},
-                        "color": {
-                            "red": 0,
-                            "green": 0,
-                            "blue": 0,
-                            "alpha": 0
+                        "x": 0,
+                        "y": 0,
+                        "zoom": {
+                            "x": 1,
+                            "y": 1,
+                            "d": 1
                         }
                     },
                     "animation": {
                         "type": 1,
-                        "movement": 2,
+                        "movement": 0,
                         "mask": {
                             "graphic": null,
                             "vague": 30
                         }
                     },
                     "easing": {
-                        "type": 1,
+                        "type": 0,
                         "inOut": 0
                     },
-                    "duration": 30,
-                    "waitForCompletion": 1,
+                    "duration": 0,
+                    "waitForCompletion": 0,
                     "fieldFlags": {
-                        "duration": 0,
-                        "easing.type": 0,
-                        "animation.type": 0,
-                        "motionBlur.enabled": 0,
-                        "origin": 0,
-                        "zOrder": 0,
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "motionBlur.enabled": 1,
+                        "origin": 1,
+                        "zOrder": 1,
                         "blendMode": 1,
                         "viewport.type": 1
                     },
@@ -250,7 +256,55 @@
                     }
                 },
                 "indent": 0,
+                "uid": "C7BB5E630BA01349734A16143D79274D42D6",
                 "expanded": false
+            },
+            {
+                "id": "vn.L2DSettings",
+                "params": {
+                    "characterId": null,
+                    "eyeBlink": {
+                        "enabled": 1,
+                        "interval": 4000,
+                        "closedMotionTime": 50,
+                        "closingMotionTime": 100,
+                        "openingMotionTime": 150
+                    },
+                    "breathIntensity": 1,
+                    "idleIntensity": 1,
+                    "lipSyncSensitivity": 1,
+                    "fieldFlags": {
+                        "breathIntensity": 1,
+                        "idleIntensity": 1,
+                        "lipSyncSensitivity": 1,
+                        "eyeBlink.enabled": 1,
+                        "eyeBlink.interval": 1,
+                        "eyeBlink.closedMotionTime": 1,
+                        "eyeBlink.closingMotionTime": 1,
+                        "eyeBlink.openingMotionTime": 1
+                    }
+                },
+                "indent": 0,
+                "uid": "6B9ECA302769434D1E39DFD1558070295929",
+                "expanded": false
+            },
+            {
+                "id": "vn.L2DExpression",
+                "params": {
+                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "data": {
+                        "expression": ""
+                    },
+                    "fadeInTime": 1000,
+                    "fieldFlags": {
+                        "fadeInTime": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "195AE7245A452044A22833F10BF777F2584E"
             },
             {
                 "id": "gs.ShowMessage",
@@ -283,6 +337,105 @@
                 },
                 "indent": 0,
                 "uid": "95C0DB7A8C36E2459C3B76B0DFE9ED9AA2FF",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "EBEBD4FC7DACA04334886F7444BEF02DA16F",
+                        "defaultText": "\"I've never been this deep down into the labs.{W:500}\nIt almost feels abandoned.\""
+                    },
+                    "position": 0,
+                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "F4B5ABF43C7BB74D601B0077CFC5BF5DC60F",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "792451C7233D184F7F395146E19B09A0103B",
+                        "defaultText": "\"I've never been this deep down into the labs.{W:500}\nIt almost feels abandoned.\""
+                    },
+                    "position": 0,
+                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "68338FAA25E7C24D3B8BD8D06AC5029169CB",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "34FC73F3426E4945F65804F89F3A9EA87858",
+                        "defaultText": "\"I've never been this deep down into the labs.{W:500}\nIt almost feels abandoned.\""
+                    },
+                    "position": 0,
+                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "1ABA0BCE6ED99446C31BB763FAA9D8883E42",
                 "expanded": true
             },
             {
@@ -1048,6 +1201,34 @@
                 "d": {
                     "cid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
                     "eid": "DC8F5BA120D2A641417A9361BFBC39AFF256"
+                }
+            },
+            "67D665DB4D9F87415D7B6276B7C06F86D215": {
+                "t": "\"I've never been this deep down into the labs.{W:500}\nIt almost feels abandoned.\"",
+                "d": {
+                    "cid": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "eid": "1ABA0BCE6ED99446C31BB763FAA9D8883E42"
+                }
+            },
+            "792451C7233D184F7F395146E19B09A0103B": {
+                "t": "\"I've never been this deep down into the labs.{W:500}\nIt almost feels abandoned.\"",
+                "d": {
+                    "cid": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "eid": "68338FAA25E7C24D3B8BD8D06AC5029169CB"
+                }
+            },
+            "EBEBD4FC7DACA04334886F7444BEF02DA16F": {
+                "t": "\"I've never been this deep down into the labs.{W:500}\nIt almost feels abandoned.\"",
+                "d": {
+                    "cid": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "eid": "F4B5ABF43C7BB74D601B0077CFC5BF5DC60F"
+                }
+            },
+            "34FC73F3426E4945F65804F89F3A9EA87858": {
+                "t": "\"I've never been this deep down into the labs.{W:500}\nIt almost feels abandoned.\"",
+                "d": {
+                    "cid": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "eid": "1ABA0BCE6ED99446C31BB763FAA9D8883E42"
                 }
             }
         },

@@ -1,4 +1,5 @@
 if(!window.$PARAMS) { window.$PARAMS = {} };Object.mixin(window.$PARAMS, {
+    "testOffline": true,
     "resolution": {
         "width": 1280,
         "height": 720
@@ -7,7 +8,5 @@ if(!window.$PARAMS) { window.$PARAMS = {} };Object.mixin(window.$PARAMS, {
         "calibri",
         "FORTE"
     ],
-    "testOffline": true,
-    "isOffline": true,
     "platform": {}
 });

@@ -2993,7 +2993,18 @@
     },
     {
         "path": "Live2D",
-        "resources": []
+        "resources": [
+            {
+                "name": "Package1_2.model",
+                "type": "graphic"
+            },
+            {
+                "name": "HarukaNiimiUniform",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 314665
+            }
+        ]
     },
     {
         "path": "Movies",
