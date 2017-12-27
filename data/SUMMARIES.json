@@ -3098,6 +3098,22 @@
                 "type": "data_record",
                 "order": 1
             }
+        },
+        "B3BCD2D41320494C7F4B611381CAF697FC3E": {
+            "items": {
+                "name": "Chapter 2",
+                "type": "vn.chapter",
+                "order": 2
+            }
+        },
+        "1196F4CD8D73B84AF58B0EA40FC4EF0ED451": {
+            "items": {
+                "name": "Switch Scene",
+                "type": "vn.scene",
+                "parentId": "B3BCD2D41320494C7F4B611381CAF697FC3E",
+                "chapterUid": "B3BCD2D41320494C7F4B611381CAF697FC3E",
+                "order": 0
+            }
         }
     }
 }

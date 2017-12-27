@@ -2579,12 +2579,6 @@
         "path": "Graphics/Fonts",
         "resources": [
             {
-                "name": "calibri",
-                "type": "graphic",
-                "isa": null,
-                "_UID": 110721
-            },
-            {
                 "name": "FORTE",
                 "type": "graphic",
                 "isa": null,
@@ -2996,13 +2990,9 @@
         "resources": [
             {
                 "name": "Package1_2.model",
-                "type": "graphic"
-            },
-            {
-                "name": "HarukaNiimiUniform",
                 "type": "graphic",
                 "isa": null,
-                "_UID": 314665
+                "_UID": 103878
             }
         ]
     },

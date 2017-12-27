@@ -325,8 +325,8 @@
                     "alpha": 255
                 },
                 {
-                    "red": 164,
-                    "green": 207,
+                    "red": 162,
+                    "green": 178,
                     "blue": 255,
                     "alpha": 255
                 }
@@ -393,60 +393,20 @@
                     "script": "return { x: (Graphics.width - object.dstRect.width * object.zoom.x) / 2, y: (Graphics.height - object.dstRect.height * object.zoom.y) / 2  }"
                 },
                 {
-                    "name": "Talk0",
-                    "script": "return { x: 0, y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
-                },
-                {
                     "name": "Talk1",
-                    "script": "return { x: Graphics.width - (object.dstRect.width/2) * object.zoom.x, y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                    "script": "return { x: (Graphics.width * 0.13) - object.dstRect.width/2 * object.zoom.x, y: Graphics.height - object.dstRect.height * object.zoom.y  }"
                 },
                 {
                     "name": "Talk2",
-                    "script": "return { x: (Graphics.width*.16) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                    "script": "return { x: (Graphics.width * 0.35) - object.dstRect.width/2 * object.zoom.x, y: Graphics.height - object.dstRect.height * object.zoom.y  }"
                 },
                 {
                     "name": "Talk3",
-                    "script": "return { x: (Graphics.width*.24) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                    "script": "return { x: (Graphics.width * 0.65) - object.dstRect.width/2 * object.zoom.x, y: Graphics.height - object.dstRect.height * object.zoom.y  }"
                 },
                 {
                     "name": "Talk4",
-                    "script": "return { x: (Graphics.width*.32) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
-                },
-                {
-                    "name": "Talk5",
-                    "script": "return { x: (Graphics.width*.40) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
-                },
-                {
-                    "name": "Talk6",
-                    "script": "return { x: (Graphics.width*.48) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
-                },
-                {
-                    "name": "Talk7",
-                    "script": "return { x: (Graphics.width*.56) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
-                },
-                {
-                    "name": "Talk8",
-                    "script": "return { x: (Graphics.width*.64) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
-                },
-                {
-                    "name": "Talk9",
-                    "script": "return { x: (Graphics.width*.72) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
-                },
-                {
-                    "name": "Talk10",
-                    "script": "return { x: (Graphics.width*.8) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
-                },
-                {
-                    "name": "Talk11",
-                    "script": "return { x: (Graphics.width*.88) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
-                },
-                {
-                    "name": "Talk12",
-                    "script": "return { x: (Graphics.width*.96) - (object.dstRect.width/2 * object.zoom.x/2), y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
-                },
-                {
-                    "name": "TalkEnd",
-                    "script": "return { x: Graphics.width - object.dstRect.width * object.zoom.x, y: (Graphics.height-100) - object.dstRect.height * object.zoom.y  }"
+                    "script": "return { x: (Graphics.width * 0.87) - object.dstRect.width/2 * object.zoom.x, y: Graphics.height - object.dstRect.height * object.zoom.y  }"
                 }
             ],
             "gameUid": "304502B35BD91947535B08A80EF36199D14B",
@@ -511,6 +471,13 @@
                 "d": {
                     "cid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
                     "eid": "DC8F5BA120D2A641417A9361BFBC39AFF256"
+                }
+            },
+            "111A38EA40DF3144B519F8D2BB346FA1BB30": {
+                "t": "{C:3}{Y:I}An unmarked facility deep underground within the laboratories of Generation Corp.{Y:N}{C:0}",
+                "d": {
+                    "cid": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "eid": "D04D6C4B8FFA5343BD8B7CC2CED3A45A1043"
                 }
             }
         }

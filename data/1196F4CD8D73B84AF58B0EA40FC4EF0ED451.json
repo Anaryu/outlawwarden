@@ -1,0 +1,30 @@
+{
+    "uid": "1196F4CD8D73B84AF58B0EA40FC4EF0ED451",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Switch Scene",
+        "type": "vn.scene",
+        "parentId": "B3BCD2D41320494C7F4B611381CAF697FC3E",
+        "chapterUid": "B3BCD2D41320494C7F4B611381CAF697FC3E",
+        "order": 0,
+        "livePreviewDisabled": false,
+        "chapter": {
+            "name": "Chapter 2"
+        },
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ]
+}

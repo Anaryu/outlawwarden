@@ -423,7 +423,6 @@
             "Graphics/Masks/Star_Square": ".png",
             "Graphics/Masks/Star_Square_Ver2": ".png",
             "Graphics/Masks/Star_Ver2": ".png",
-            "Graphics/Fonts/calibri": ".woff",
             "Graphics/Fonts/FORTE": ".woff",
             "Audio/Music/Competitive_-_Fired_Up": [
                 ".ogg"
@@ -635,7 +634,6 @@
             "Audio/Sounds/choice_cancel_01": [
                 ".ogg"
             ],
-            "Live2D/HarukaNiimiUniform": ".live2d",
             "Live2D/Package1_2.model": ".live2d",
             "Movies/lrain.webmhd": [
                 ".webm"
