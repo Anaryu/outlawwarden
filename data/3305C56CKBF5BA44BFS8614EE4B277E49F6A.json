@@ -160,7 +160,7 @@
                 "params": {
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
                     "eyeBlink": {
-                        "enabled": 1,
+                        "enabled": 0,
                         "interval": 4000,
                         "closedMotionTime": 50,
                         "closingMotionTime": 100,
@@ -173,7 +173,7 @@
                         "breathIntensity": 1,
                         "idleIntensity": 1,
                         "lipSyncSensitivity": 0,
-                        "eyeBlink.enabled": 1,
+                        "eyeBlink.enabled": 0,
                         "eyeBlink.interval": 1,
                         "eyeBlink.closedMotionTime": 1,
                         "eyeBlink.closingMotionTime": 1,
@@ -193,7 +193,7 @@
                     "predefinedPositionId": 12,
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
                     "model": {
-                        "name": "Ava.model",
+                        "name": "ava.model",
                         "hue": 0,
                         "opacity": 255,
                         "blending": 0,
@@ -264,12 +264,14 @@
                 "uid": "F86CF2E7381D484732992A6929A42A0B76D8"
             },
             {
-                "id": "vn.L2DExpression",
+                "id": "vn.L2DMotion",
                 "params": {
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "loop": 0,
+                    "fadeInTime": 1000,
                     "data": {
                         "model": {
-                            "name": "Ava.model",
+                            "name": "ava.model",
                             "hue": 0,
                             "opacity": 255,
                             "blending": 0,
@@ -279,7 +281,7 @@
                                 "blue": 0
                             }
                         },
-                        "expression": "Normal",
+                        "motion": "happy.mtn",
                         "position": {
                             "x": 0,
                             "y": 0,
@@ -290,16 +292,16 @@
                             }
                         }
                     },
-                    "fadeInTime": 500,
+                    "waitForCompletion": 0,
                     "fieldFlags": {
-                        "fadeInTime": 0
+                        "fadeInTime": 1
                     },
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
                 },
                 "indent": 0,
-                "uid": "54D6148F517C9245371999D6F716269C3DF5"
+                "uid": "6C24D11F49D792430C1A1A288BCC3AE44917"
             },
             {
                 "id": "gs.ShowMessage",
@@ -335,9 +337,11 @@
                 "expanded": true
             },
             {
-                "id": "vn.L2DExpression",
+                "id": "vn.L2DMotion",
                 "params": {
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "loop": 0,
+                    "fadeInTime": 1000,
                     "data": {
                         "model": {
                             "name": "Ava.model",
@@ -350,7 +354,7 @@
                                 "blue": 0
                             }
                         },
-                        "expression": "Angry",
+                        "motion": "Angry.mtn",
                         "position": {
                             "x": 0,
                             "y": 0,
@@ -361,16 +365,16 @@
                             }
                         }
                     },
-                    "fadeInTime": 500,
+                    "waitForCompletion": 0,
                     "fieldFlags": {
-                        "fadeInTime": 0
+                        "fadeInTime": 1
                     },
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
                 },
                 "indent": 0,
-                "uid": "6369494257AC4244A99AB20793C9A7F3E1E4"
+                "uid": "2FC420C352FDF44E752835D3CA9FC882187A"
             },
             {
                 "id": "gs.ShowMessage",
@@ -406,9 +410,11 @@
                 "expanded": true
             },
             {
-                "id": "vn.L2DExpression",
+                "id": "vn.L2DMotion",
                 "params": {
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "loop": 0,
+                    "fadeInTime": 1000,
                     "data": {
                         "model": {
                             "name": "Ava.model",
@@ -421,7 +427,7 @@
                                 "blue": 0
                             }
                         },
-                        "expression": "Angry (Undo)",
+                        "motion": "Sad.mtn",
                         "position": {
                             "x": 0,
                             "y": 0,
@@ -432,62 +438,16 @@
                             }
                         }
                     },
-                    "fadeInTime": 100,
+                    "waitForCompletion": 0,
                     "fieldFlags": {
-                        "fadeInTime": 0
+                        "fadeInTime": 1
                     },
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
                 },
                 "indent": 0,
-                "uid": "6FF7D713020C10495658A634520E601FC265"
-            },
-            {
-                "id": "gs.WaitCommand",
-                "params": {
-                    "time": 600
-                },
-                "indent": 0,
-                "uid": "4852BF90877EA546A99B86518CCEB5BEAB6E"
-            },
-            {
-                "id": "vn.L2DExpression",
-                "params": {
-                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
-                    "data": {
-                        "model": {
-                            "name": "Ava.model",
-                            "hue": 0,
-                            "opacity": 255,
-                            "blending": 0,
-                            "tone": {
-                                "red": 0,
-                                "green": 0,
-                                "blue": 0
-                            }
-                        },
-                        "expression": "Sad",
-                        "position": {
-                            "x": 0,
-                            "y": 0,
-                            "zoom": {
-                                "x": 1,
-                                "y": 1,
-                                "d": 1
-                            }
-                        }
-                    },
-                    "fadeInTime": 500,
-                    "fieldFlags": {
-                        "fadeInTime": 0
-                    },
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "indent": 0,
-                "uid": "475F8B3F6266C447418BE4D1966E4CFC1780"
+                "uid": "B1ED9880510E3448EC9B4F685F8466399651"
             },
             {
                 "id": "gs.ShowMessage",
@@ -523,9 +483,11 @@
                 "expanded": true
             },
             {
-                "id": "vn.L2DExpression",
+                "id": "vn.L2DMotion",
                 "params": {
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "loop": 0,
+                    "fadeInTime": 1000,
                     "data": {
                         "model": {
                             "name": "Ava.model",
@@ -538,7 +500,7 @@
                                 "blue": 0
                             }
                         },
-                        "expression": "Sad (Undo)",
+                        "motion": "Laughing.mtn",
                         "position": {
                             "x": 0,
                             "y": 0,
@@ -549,62 +511,16 @@
                             }
                         }
                     },
-                    "fadeInTime": 100,
+                    "waitForCompletion": 0,
                     "fieldFlags": {
-                        "fadeInTime": 0
+                        "fadeInTime": 1
                     },
                     "previewBackground": {
                         "name": "$live_preview_snapshot"
                     }
                 },
                 "indent": 0,
-                "uid": "E55F75897080C842D47A93A80B1BFBC649CB"
-            },
-            {
-                "id": "gs.WaitCommand",
-                "params": {
-                    "time": 6
-                },
-                "indent": 0,
-                "uid": "F31B12BA9E11794B387AFCE1A11459E266B2"
-            },
-            {
-                "id": "vn.L2DExpression",
-                "params": {
-                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
-                    "data": {
-                        "model": {
-                            "name": "Ava.model",
-                            "hue": 0,
-                            "opacity": 255,
-                            "blending": 0,
-                            "tone": {
-                                "red": 0,
-                                "green": 0,
-                                "blue": 0
-                            }
-                        },
-                        "expression": "Laughing",
-                        "position": {
-                            "x": 0,
-                            "y": 0,
-                            "zoom": {
-                                "x": 1,
-                                "y": 1,
-                                "d": 1
-                            }
-                        }
-                    },
-                    "fadeInTime": 500,
-                    "fieldFlags": {
-                        "fadeInTime": 0
-                    },
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "indent": 0,
-                "uid": "55DEBD8B4808F64EB73A0AF2A73B0C61EF07"
+                "uid": "0CB5229720308643D0285D14D2B42723A9E1"
             },
             {
                 "id": "gs.ShowMessage",
@@ -641,44 +557,6 @@
                 "indent": 0,
                 "uid": "68338FAA25E7C24D3B8BD8D06AC5029169CB",
                 "expanded": true
-            },
-            {
-                "id": "vn.L2DExpression",
-                "params": {
-                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
-                    "data": {
-                        "model": {
-                            "name": "Ava.model",
-                            "hue": 0,
-                            "opacity": 255,
-                            "blending": 0,
-                            "tone": {
-                                "red": 0,
-                                "green": 0,
-                                "blue": 0
-                            }
-                        },
-                        "expression": "Laughing (Undo)",
-                        "position": {
-                            "x": 0,
-                            "y": 0,
-                            "zoom": {
-                                "x": 1,
-                                "y": 1,
-                                "d": 1
-                            }
-                        }
-                    },
-                    "fadeInTime": 100,
-                    "fieldFlags": {
-                        "fadeInTime": 0
-                    },
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "indent": 0,
-                "uid": "FDD94AB8488C4140575BA8282AD920DC108D"
             },
             {
                 "id": "gs.ShowMessage",

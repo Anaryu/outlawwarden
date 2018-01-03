@@ -2989,14 +2989,14 @@
         "path": "Live2D",
         "resources": [
             {
-                "name": "Ava.model",
+                "name": "ava.model",
                 "type": "graphic"
             },
             {
                 "name": "Package1_2.model",
                 "type": "graphic",
                 "isa": null,
-                "_UID": 103878
+                "_UID": 105460
             }
         ]
     },
