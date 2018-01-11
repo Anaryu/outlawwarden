@@ -337,6 +337,46 @@
                 "expanded": true
             },
             {
+                "id": "vn.L2DMotion",
+                "params": {
+                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "loop": 0,
+                    "fadeInTime": 1000,
+                    "data": {
+                        "model": {
+                            "name": "ava.model",
+                            "hue": 0,
+                            "opacity": 255,
+                            "blending": 0,
+                            "tone": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0
+                            }
+                        },
+                        "motion": "sad.mtn",
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "zoom": {
+                                "x": 1,
+                                "y": 1,
+                                "d": 1
+                            }
+                        }
+                    },
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "fadeInTime": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "77233C6B114F114BAD4828D13668F0D4EF31"
+            },
+            {
                 "id": "gs.ShowMessage",
                 "params": {
                     "waitForCompletion": 1,
@@ -446,6 +486,46 @@
                 "expanded": true
             },
             {
+                "id": "vn.L2DMotion",
+                "params": {
+                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "loop": 0,
+                    "fadeInTime": 1000,
+                    "data": {
+                        "model": {
+                            "name": "ava.model",
+                            "hue": 0,
+                            "opacity": 255,
+                            "blending": 0,
+                            "tone": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0
+                            }
+                        },
+                        "motion": "happy.mtn",
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "zoom": {
+                                "x": 1,
+                                "y": 1,
+                                "d": 1
+                            }
+                        }
+                    },
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "fadeInTime": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "B924C4E64297D64D532B7483E2E19387FAAB"
+            },
+            {
                 "id": "gs.ShowMessage",
                 "params": {
                     "waitForCompletion": 1,
@@ -477,6 +557,44 @@
                 "indent": 0,
                 "uid": "1ABA0BCE6ED99446C31BB763FAA9D8883E42",
                 "expanded": true
+            },
+            {
+                "id": "vn.L2DExpression",
+                "params": {
+                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
+                    "data": {
+                        "model": {
+                            "name": "ava.model",
+                            "hue": 0,
+                            "opacity": 255,
+                            "blending": 0,
+                            "tone": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0
+                            }
+                        },
+                        "expression": "eye-half",
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "zoom": {
+                                "x": 1,
+                                "y": 1,
+                                "d": 1
+                            }
+                        }
+                    },
+                    "fadeInTime": 1000,
+                    "fieldFlags": {
+                        "fadeInTime": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "F56941DF7044824DE53B2EB84FFDF455DF23"
             },
             {
                 "id": "vn.CharacterJoinScene",
