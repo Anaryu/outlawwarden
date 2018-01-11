@@ -190,7 +190,7 @@
                     "viewport": {
                         "type": "scene"
                     },
-                    "predefinedPositionId": 12,
+                    "predefinedPositionId": 11,
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
                     "model": {
                         "name": "ava.model",
@@ -281,7 +281,7 @@
                                 "blue": 0
                             }
                         },
-                        "motion": "happy.mtn",
+                        "motion": "default.mtn",
                         "position": {
                             "x": 0,
                             "y": 0,
@@ -337,119 +337,6 @@
                 "expanded": true
             },
             {
-                "id": "vn.L2DMotion",
-                "params": {
-                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
-                    "loop": 0,
-                    "fadeInTime": 1000,
-                    "data": {
-                        "model": {
-                            "name": "Ava.model",
-                            "hue": 0,
-                            "opacity": 255,
-                            "blending": 0,
-                            "tone": {
-                                "red": 0,
-                                "green": 0,
-                                "blue": 0
-                            }
-                        },
-                        "motion": "Angry.mtn",
-                        "position": {
-                            "x": 0,
-                            "y": 0,
-                            "zoom": {
-                                "x": 1,
-                                "y": 1,
-                                "d": 1
-                            }
-                        }
-                    },
-                    "waitForCompletion": 0,
-                    "fieldFlags": {
-                        "fadeInTime": 1
-                    },
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "indent": 0,
-                "uid": "2FC420C352FDF44E752835D3CA9FC882187A"
-            },
-            {
-                "id": "gs.ShowMessage",
-                "params": {
-                    "waitForCompletion": 1,
-                    "duration": 15,
-                    "expressionId": null,
-                    "custom": {
-                        "object": {
-                            "x": 0,
-                            "y": 0,
-                            "size": {
-                                "width": 300,
-                                "height": 100
-                            }
-                        }
-                    },
-                    "message": {
-                        "lcId": "4A70FCC070D41247462B7756DB85929B986A",
-                        "defaultText": "\"I've never been this deep down into the labs.{W:500}\nIt almost feels abandoned.\""
-                    },
-                    "position": 0,
-                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
-                    "partial": 0,
-                    "fieldFlags": {
-                        "duration": 1
-                    },
-                    "expressions": [],
-                    "animations": []
-                },
-                "indent": 0,
-                "uid": "0421B98F14DF9741C6390C9339EB51D085F2",
-                "expanded": true
-            },
-            {
-                "id": "vn.L2DMotion",
-                "params": {
-                    "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
-                    "loop": 0,
-                    "fadeInTime": 1000,
-                    "data": {
-                        "model": {
-                            "name": "Ava.model",
-                            "hue": 0,
-                            "opacity": 255,
-                            "blending": 0,
-                            "tone": {
-                                "red": 0,
-                                "green": 0,
-                                "blue": 0
-                            }
-                        },
-                        "motion": "Sad.mtn",
-                        "position": {
-                            "x": 0,
-                            "y": 0,
-                            "zoom": {
-                                "x": 1,
-                                "y": 1,
-                                "d": 1
-                            }
-                        }
-                    },
-                    "waitForCompletion": 0,
-                    "fieldFlags": {
-                        "fadeInTime": 1
-                    },
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "indent": 0,
-                "uid": "B1ED9880510E3448EC9B4F685F8466399651"
-            },
-            {
                 "id": "gs.ShowMessage",
                 "params": {
                     "waitForCompletion": 1,
@@ -467,7 +354,7 @@
                     },
                     "message": {
                         "lcId": "EBEBD4FC7DACA04334886F7444BEF02DA16F",
-                        "defaultText": "\"Wait{W:500}, did I just hear something?{W:500} Like maybe a giant block of text being forced into place to make me keep talking and make it suspiciously easy to detect how my mouth movements will work over the more extreme cases of long explanations?\""
+                        "defaultText": "\"Wait{W:500}, did I just hear something?{W:500} Like maybe a giant block of text being forced into place to make me keep talking and make it suspiciously easy to detect how my mouth movements will work?\""
                     },
                     "position": 0,
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
@@ -490,7 +377,7 @@
                     "fadeInTime": 1000,
                     "data": {
                         "model": {
-                            "name": "Ava.model",
+                            "name": "ava.model",
                             "hue": 0,
                             "opacity": 255,
                             "blending": 0,
@@ -500,7 +387,7 @@
                                 "blue": 0
                             }
                         },
-                        "motion": "Laughing.mtn",
+                        "motion": "angry.mtn",
                         "position": {
                             "x": 0,
                             "y": 0,
@@ -520,7 +407,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "0CB5229720308643D0285D14D2B42723A9E1"
+                "uid": "4022E5C86F78C54FA1898B6472AD873F8172"
             },
             {
                 "id": "gs.ShowMessage",
@@ -1364,7 +1251,7 @@
                 }
             },
             "EBEBD4FC7DACA04334886F7444BEF02DA16F": {
-                "t": "\"Wait{W:500}, did I just hear something?{W:500} Like maybe a giant block of text being forced into place to make me keep talking and make it suspiciously easy to detect how my mouth movements will work over the more extreme cases of long explanations?\"",
+                "t": "\"Wait{W:500}, did I just hear something?{W:500} Like maybe a giant block of text being forced into place to make me keep talking and make it suspiciously easy to detect how my mouth movements will work?\"",
                 "d": {
                     "cid": "FCCF0CB04E70A9476D187099A715CFDBE589",
                     "eid": "F4B5ABF43C7BB74D601B0077CFC5BF5DC60F"
@@ -1375,13 +1262,6 @@
                 "d": {
                     "cid": "FCCF0CB04E70A9476D187099A715CFDBE589",
                     "eid": "1ABA0BCE6ED99446C31BB763FAA9D8883E42"
-                }
-            },
-            "4A70FCC070D41247462B7756DB85929B986A": {
-                "t": "\"I've never been this deep down into the labs.{W:500}\nIt almost feels abandoned.\"",
-                "d": {
-                    "cid": "FCCF0CB04E70A9476D187099A715CFDBE589",
-                    "eid": "0421B98F14DF9741C6390C9339EB51D085F2"
                 }
             },
             "9148F53A8A7CD544756BDA76529717A899CE": {
