@@ -185,6 +185,35 @@
                 "expanded": false
             },
             {
+                "id": "vn.L2DSettings",
+                "params": {
+                    "characterId": "6090E9422F115041259877862542624B0FCD",
+                    "eyeBlink": {
+                        "enabled": 0,
+                        "interval": 4000,
+                        "closedMotionTime": 50,
+                        "closingMotionTime": 100,
+                        "openingMotionTime": 150
+                    },
+                    "breathIntensity": 1,
+                    "idleIntensity": 1,
+                    "lipSyncSensitivity": 1,
+                    "fieldFlags": {
+                        "breathIntensity": 1,
+                        "idleIntensity": 1,
+                        "lipSyncSensitivity": 0,
+                        "eyeBlink.enabled": 0,
+                        "eyeBlink.interval": 1,
+                        "eyeBlink.closedMotionTime": 1,
+                        "eyeBlink.closingMotionTime": 1,
+                        "eyeBlink.openingMotionTime": 1
+                    }
+                },
+                "indent": 0,
+                "uid": "9194C7A734758543A879B05406A64A8FE6A0",
+                "expanded": false
+            },
+            {
                 "id": "vn.L2DJoinScene",
                 "params": {
                     "viewport": {
@@ -256,6 +285,97 @@
                 "expanded": false
             },
             {
+                "id": "vn.L2DJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 10,
+                    "characterId": "6090E9422F115041259877862542624B0FCD",
+                    "model": {
+                        "name": "greyson.model",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": {
+                            "x": 1,
+                            "y": 1,
+                            "d": 1
+                        }
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "motionBlur.enabled": 1,
+                        "origin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "7D37FD1A3E43704C7C383F451DD2B613BC28",
+                "expanded": false
+            },
+            {
+                "id": "vn.SetObjectData",
+                "params": {
+                    "objectType": 4,
+                    "number": 0,
+                    "numberDomain": "com.degica.vnm.default",
+                    "layer": 0,
+                    "characterId": "6090E9422F115041259877862542624B0FCD",
+                    "field": 13,
+                    "numberValue": 0,
+                    "textValue": {
+                        "scope": 1,
+                        "index": 0,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "switchValue": 1
+                },
+                "indent": 0,
+                "uid": "1656F51567F7C644C179D365C5941C213886"
+            },
+            {
                 "id": "gs.WaitCommand",
                 "params": {
                     "time": 120
@@ -266,8 +386,48 @@
             {
                 "id": "vn.L2DMotion",
                 "params": {
+                    "characterId": "6090E9422F115041259877862542624B0FCD",
+                    "loop": 1,
+                    "fadeInTime": 1000,
+                    "data": {
+                        "model": {
+                            "name": "greyson.model",
+                            "hue": 0,
+                            "opacity": 255,
+                            "blending": 0,
+                            "tone": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0
+                            }
+                        },
+                        "motion": "default.mtn",
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "zoom": {
+                                "x": 1,
+                                "y": 1,
+                                "d": 1
+                            }
+                        }
+                    },
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "fadeInTime": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "6C24D11F49D792430C1A1A288BCC3AE44917"
+            },
+            {
+                "id": "vn.L2DMotion",
+                "params": {
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
-                    "loop": 0,
+                    "loop": 1,
                     "fadeInTime": 1000,
                     "data": {
                         "model": {
@@ -301,7 +461,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "6C24D11F49D792430C1A1A288BCC3AE44917"
+                "uid": "D3CB80C379E3954BC72A2237D5338E65E21E"
             },
             {
                 "id": "gs.ShowMessage",
@@ -337,10 +497,43 @@
                 "expanded": true
             },
             {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "915E42836A9DC3499949E3D5AB02DC9C6110",
+                        "defaultText": "Don't get so upset about it.{W:400} Just enjoy how my mustache is so... alive!"
+                    },
+                    "position": 0,
+                    "characterId": "6090E9422F115041259877862542624B0FCD",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "7CE822BF98E71749E17B4FE238AC4DA59A90",
+                "expanded": true
+            },
+            {
                 "id": "vn.L2DMotion",
                 "params": {
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
-                    "loop": 0,
+                    "loop": 1,
                     "fadeInTime": 1000,
                     "data": {
                         "model": {
@@ -413,7 +606,7 @@
                 "id": "vn.L2DMotion",
                 "params": {
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
-                    "loop": 0,
+                    "loop": 1,
                     "fadeInTime": 1000,
                     "data": {
                         "model": {
@@ -448,6 +641,79 @@
                 },
                 "indent": 0,
                 "uid": "4022E5C86F78C54FA1898B6472AD873F8172"
+            },
+            {
+                "id": "vn.L2DMotion",
+                "params": {
+                    "characterId": "6090E9422F115041259877862542624B0FCD",
+                    "loop": 1,
+                    "fadeInTime": 1000,
+                    "data": {
+                        "model": {
+                            "name": "greyson.model",
+                            "hue": 0,
+                            "opacity": 255,
+                            "blending": 0,
+                            "tone": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0
+                            }
+                        },
+                        "motion": "angry.mtn",
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "zoom": {
+                                "x": 1,
+                                "y": 1,
+                                "d": 1
+                            }
+                        }
+                    },
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "fadeInTime": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "F25D45134E5A56414B78097423F9B3A7DBCC"
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "5A66EDF03409444D0C1B4381A738B0C994F9",
+                        "defaultText": "\"Wait{W:500}, did I just hear something?{W:500} Like maybe a giant block of text being forced into place to make me keep talking and make it suspiciously easy to detect how my mouth movements will work?\""
+                    },
+                    "position": 0,
+                    "characterId": "6090E9422F115041259877862542624B0FCD",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "D8AC8D9F7DA45248F619F9F79CE6E8051108",
+                "expanded": true
             },
             {
                 "id": "gs.ShowMessage",
@@ -489,7 +755,7 @@
                 "id": "vn.L2DMotion",
                 "params": {
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
-                    "loop": 0,
+                    "loop": 1,
                     "fadeInTime": 1000,
                     "data": {
                         "model": {
@@ -1387,6 +1653,20 @@
                 "d": {
                     "cid": "FCCF0CB04E70A9476D187099A715CFDBE589",
                     "eid": "0BAB12A3815ED34E293AD7C05103BC920377"
+                }
+            },
+            "915E42836A9DC3499949E3D5AB02DC9C6110": {
+                "t": "Don't get so upset about it.{W:400} Just enjoy how my mustache is so... alive!",
+                "d": {
+                    "cid": "6090E9422F115041259877862542624B0FCD",
+                    "eid": "7CE822BF98E71749E17B4FE238AC4DA59A90"
+                }
+            },
+            "5A66EDF03409444D0C1B4381A738B0C994F9": {
+                "t": "\"Wait{W:500}, did I just hear something?{W:500} Like maybe a giant block of text being forced into place to make me keep talking and make it suspiciously easy to detect how my mouth movements will work?\"",
+                "d": {
+                    "cid": "6090E9422F115041259877862542624B0FCD",
+                    "eid": "D8AC8D9F7DA45248F619F9F79CE6E8051108"
                 }
             }
         },

@@ -2989,8 +2989,14 @@
         "path": "Live2D",
         "resources": [
             {
-                "name": "ava.model",
+                "name": "greyson.model",
                 "type": "graphic"
+            },
+            {
+                "name": "ava.model",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 106770
             }
         ]
     },
