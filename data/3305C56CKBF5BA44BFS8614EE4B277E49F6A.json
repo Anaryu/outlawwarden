@@ -219,6 +219,77 @@
                     "viewport": {
                         "type": "scene"
                     },
+                    "predefinedPositionId": 10,
+                    "characterId": "6090E9422F115041259877862542624B0FCD",
+                    "model": {
+                        "name": "greyson.model",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": {
+                            "x": 1,
+                            "y": 1,
+                            "d": 1
+                        }
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "motionBlur.enabled": 1,
+                        "origin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "7D37FD1A3E43704C7C383F451DD2B613BC28",
+                "expanded": false
+            },
+            {
+                "id": "vn.L2DJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
                     "predefinedPositionId": 11,
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
                     "model": {
@@ -290,10 +361,10 @@
                     "viewport": {
                         "type": "scene"
                     },
-                    "predefinedPositionId": 10,
-                    "characterId": "6090E9422F115041259877862542624B0FCD",
+                    "predefinedPositionId": 9,
+                    "characterId": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
                     "model": {
-                        "name": "greyson.model",
+                        "name": "chloe.model",
                         "hue": 0,
                         "opacity": 255,
                         "blending": 0,
@@ -352,7 +423,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "7D37FD1A3E43704C7C383F451DD2B613BC28",
+                "uid": "C225B08B9B806440C6794EF001C2EB32561B",
                 "expanded": false
             },
             {
@@ -464,6 +535,46 @@
                 "uid": "D3CB80C379E3954BC72A2237D5338E65E21E"
             },
             {
+                "id": "vn.L2DMotion",
+                "params": {
+                    "characterId": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "loop": 1,
+                    "fadeInTime": 1000,
+                    "data": {
+                        "model": {
+                            "name": "chloe.model",
+                            "hue": 0,
+                            "opacity": 255,
+                            "blending": 0,
+                            "tone": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0
+                            }
+                        },
+                        "motion": "default.mtn",
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "zoom": {
+                                "x": 1,
+                                "y": 1,
+                                "d": 1
+                            }
+                        }
+                    },
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "fadeInTime": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "0F20821E3E8158478D7A4A180607A3779684"
+            },
+            {
                 "id": "gs.ShowMessage",
                 "params": {
                     "waitForCompletion": 1,
@@ -530,6 +641,39 @@
                 "expanded": true
             },
             {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "10F6CCF893B6364F6C0B8A29CBFB771FA714",
+                        "defaultText": "So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy."
+                    },
+                    "position": 0,
+                    "characterId": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "2C75C3DE3BC2564E698A18A1C93AAB265327",
+                "expanded": true
+            },
+            {
                 "id": "vn.L2DMotion",
                 "params": {
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
@@ -570,6 +714,46 @@
                 "uid": "77233C6B114F114BAD4828D13668F0D4EF31"
             },
             {
+                "id": "vn.L2DMotion",
+                "params": {
+                    "characterId": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "loop": 1,
+                    "fadeInTime": 1000,
+                    "data": {
+                        "model": {
+                            "name": "chloe.model",
+                            "hue": 0,
+                            "opacity": 255,
+                            "blending": 0,
+                            "tone": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0
+                            }
+                        },
+                        "motion": "surprised.mtn",
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "zoom": {
+                                "x": 1,
+                                "y": 1,
+                                "d": 1
+                            }
+                        }
+                    },
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "fadeInTime": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "2A8D0A13643C844FFF98CE3454492D5857A3"
+            },
+            {
                 "id": "gs.ShowMessage",
                 "params": {
                     "waitForCompletion": 1,
@@ -600,6 +784,39 @@
                 },
                 "indent": 0,
                 "uid": "F4B5ABF43C7BB74D601B0077CFC5BF5DC60F",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "E453A3370A833142B54B93A1E7405E916B59",
+                        "defaultText": "So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy."
+                    },
+                    "position": 0,
+                    "characterId": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "5329A8A74456434D2B7970D94BD5D6092BD7",
                 "expanded": true
             },
             {
@@ -1667,6 +1884,20 @@
                 "d": {
                     "cid": "6090E9422F115041259877862542624B0FCD",
                     "eid": "D8AC8D9F7DA45248F619F9F79CE6E8051108"
+                }
+            },
+            "10F6CCF893B6364F6C0B8A29CBFB771FA714": {
+                "t": "So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy.",
+                "d": {
+                    "cid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "eid": "2C75C3DE3BC2564E698A18A1C93AAB265327"
+                }
+            },
+            "E453A3370A833142B54B93A1E7405E916B59": {
+                "t": "So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy.",
+                "d": {
+                    "cid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "eid": "5329A8A74456434D2B7970D94BD5D6092BD7"
                 }
             }
         },

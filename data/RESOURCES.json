@@ -635,6 +635,7 @@
                 ".ogg"
             ],
             "Live2D/ava.model": ".live2d",
+            "Live2D/chloe.model": ".live2d",
             "Live2D/greyson.model": ".live2d",
             "Movies/lrain.webmhd": [
                 ".webm"

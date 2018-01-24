@@ -2990,6 +2990,12 @@
         "resources": [
             {
                 "name": "greyson.model",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 103525
+            },
+            {
+                "name": "chloe.model",
                 "type": "graphic"
             },
             {
