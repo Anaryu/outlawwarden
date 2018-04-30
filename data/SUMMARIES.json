@@ -5,7 +5,7 @@
             "items": {
                 "name": "OutlawWarden",
                 "type": "project",
-                "version": "1.0.1045"
+                "version": "1.0.1077"
             }
         },
         "07DD714151A3B2EA": {
@@ -302,7 +302,7 @@
             "items": {
                 "name": "Unnamed",
                 "type": "data_record",
-                "order": 0
+                "order": 1
             }
         },
         "2C26A99BK03D7A4EC4SAA29EE1DB000A7E1E": {
@@ -922,28 +922,28 @@
             "items": {
                 "name": "Layout_Title",
                 "type": "game_script",
-                "order": 2
+                "order": 8
             }
         },
         "C2CD78AFKAEC2A465FSAF2DE9AAD59807CCE": {
             "items": {
                 "name": "Layout_CGGallery",
                 "type": "game_script",
-                "order": 3
+                "order": 2
             }
         },
         "032D436AK4650A41FAS9A66EE96FF2AD2311": {
             "items": {
                 "name": "Layout_SettingsMenu",
                 "type": "game_script",
-                "order": 5
+                "order": 4
             }
         },
         "C5273A87K6552A403BS9CB1ED4B3B6E1604D": {
             "items": {
                 "name": "Layout_LoadMenu",
                 "type": "game_script",
-                "order": 9
+                "order": 6
             }
         },
         "27F7EC2DK40B2A4C6ESABA7E4A39B05924F8": {
@@ -957,7 +957,7 @@
             "items": {
                 "name": "Layout_Game",
                 "type": "game_script",
-                "order": 11
+                "order": 7
             }
         },
         "2A0E8A67K5BAAA4D7AS9017ED220E9EFFCA7": {
@@ -971,35 +971,35 @@
             "items": {
                 "name": "Template_Slider",
                 "type": "game_script",
-                "order": 7
+                "order": 3
             }
         },
         "9C4B4737KDC01A4763SA3ADE1724270348E7": {
             "items": {
                 "name": "Template_VerticalScrollBar",
                 "type": "game_script",
-                "order": 0
+                "order": 12
             }
         },
         "CA2420D4K9E0FA4CFAS8F5CE6391766F7CCF": {
             "items": {
                 "name": "Template_SaveGameSlot",
                 "type": "game_script",
-                "order": 18
+                "order": 24
             }
         },
         "38EF8029K13CEA45D7SBCBCE30025B9DD54B": {
             "items": {
                 "name": "Template_ConfirmationDialog",
                 "type": "game_script",
-                "order": 17
+                "order": 8
             }
         },
         "ABDD940AK5089A493CS9BCEEC74448550608": {
             "items": {
                 "name": "Template_OptionButton",
                 "type": "game_script",
-                "order": 8
+                "order": 14
             }
         },
         "84CE7649KF843A490DSB7D5E548DE689C8B5": {
@@ -1034,7 +1034,7 @@
             "items": {
                 "name": "Template_ChoiceBox",
                 "type": "game_script",
-                "order": 5
+                "order": 2
             }
         },
         "E581B83DKBC36A4EDBSA27CEFE3B12438B77": {
@@ -1200,7 +1200,7 @@
             "items": {
                 "name": "Template_InputNumberBox",
                 "type": "game_script",
-                "order": 4
+                "order": 13
             }
         },
         "DBED0D62K6A03A47C0SA78CEBB556CA2372D": {
@@ -1214,7 +1214,7 @@
             "items": {
                 "name": "Template_InputTextBox",
                 "type": "game_script",
-                "order": 6
+                "order": 19
             }
         },
         "1F932484K382AA48B8SB623ECA67B7376D07": {
@@ -1849,7 +1849,7 @@
             "items": {
                 "name": "Template_TitledWindow",
                 "type": "game_script",
-                "order": 11
+                "order": 5
             }
         },
         "FBEA2EE7K25F8A42F1SBA1BE55C1458BD892": {
@@ -1863,14 +1863,14 @@
             "items": {
                 "name": "Template_OptionButtonSet",
                 "type": "game_script",
-                "order": 9
+                "order": 4
             }
         },
         "648CC80FKD7E4A458ESA01BE9D6F77BBCA0A": {
             "items": {
                 "name": "Template_StepSlider",
                 "type": "game_script",
-                "order": 13
+                "order": 6
             }
         },
         "64BE0206K14D8A4435S9A4BE3F480E1CAC53": {
@@ -1905,7 +1905,7 @@
             "items": {
                 "name": "Template_VerticalScrollView",
                 "type": "game_script",
-                "order": 19
+                "order": 9
             }
         },
         "526F1282K9B0FA4EDAS9FD5EAC47C4FC0D10": {
@@ -1918,28 +1918,28 @@
             "items": {
                 "name": "Template_MessageBox",
                 "type": "game_script",
-                "order": 1
+                "order": 0
             }
         },
         "DCC8312FK8A86A4AD7SA83FE67360D02ADC5": {
             "items": {
                 "name": "Template_Window",
                 "type": "game_script",
-                "order": 10
+                "order": 22
             }
         },
         "F4EBE0BEKD75CA4D54S8989E79195093571F": {
             "items": {
                 "name": "Template_MessageOptionButton",
                 "type": "game_script",
-                "order": 15
+                "order": 7
             }
         },
         "74F8A855KA042A46C4S87DFE049434DECDE7": {
             "items": {
                 "name": "Template_SelectableWindow",
                 "type": "game_script",
-                "order": 12
+                "order": 15
             }
         },
         "2ADC0E64K3E53A43DFSA080E702C95F0ABF5": {
@@ -2061,21 +2061,21 @@
             "items": {
                 "name": "Layout_SettingsGeneral",
                 "type": "game_script",
-                "order": 6
+                "order": 9
             }
         },
         "FD44B2D7K6D26A4C65SA039E9FBE4DB83D7E": {
             "items": {
                 "name": "Layout_SettingsMessage",
                 "type": "game_script",
-                "order": 7
+                "order": 5
             }
         },
         "E93D845BK5C9FA4B94SA83FE07BFCDF5FE27": {
             "items": {
                 "name": "Layout_SettingsAudio",
                 "type": "game_script",
-                "order": 8
+                "order": 3
             }
         },
         "97163D89K8F9DA45ADSA51CE47DE4ECE311C": {
@@ -2226,7 +2226,7 @@
             "items": {
                 "name": "Template_MessageBoxMenu",
                 "type": "game_script",
-                "order": 3
+                "order": 1
             }
         },
         "8A26E826K9D75A474FSA2A3E96504A4B36BA": {
@@ -2257,7 +2257,7 @@
             "items": {
                 "name": "Template_ConfirmationButton",
                 "type": "game_script",
-                "order": 14
+                "order": 20
             }
         },
         "4E4940CCKA8F7A424FS813DE0DB75D3B524B": {
@@ -2288,7 +2288,7 @@
             "items": {
                 "name": "Template_FreeChoiceBox",
                 "type": "game_script",
-                "order": 24
+                "order": 18
             }
         },
         "22E0BB326702B84AF95BEAC0E5D75E1A9858": {
@@ -2440,14 +2440,14 @@
             "items": {
                 "name": "Template_DataScrollView",
                 "type": "game_script",
-                "order": 20
+                "order": 17
             }
         },
         "0287A57C29D34340DE89B3C64AE4DE9BE9B3": {
             "items": {
                 "name": "Template_MessageBacklog",
                 "type": "game_script",
-                "order": 2
+                "order": 23
             }
         },
         "604014AD1E9551496B7AA224258F20EBD72C": {
@@ -2520,7 +2520,7 @@
             "items": {
                 "name": "Layout_CGGalleryEntry",
                 "type": "game_script",
-                "order": 4
+                "order": 11
             }
         },
         "79C090A463B8D641194B8A01302FE755D137": {
@@ -2702,21 +2702,21 @@
             "items": {
                 "name": "Template_SettingsMenuSlider",
                 "type": "game_script",
-                "order": 21
+                "order": 10
             }
         },
         "9D05379F6DAA854616788E2945AA54922342": {
             "items": {
                 "name": "Template_SettingsOptionSet",
                 "type": "game_script",
-                "order": 22
+                "order": 21
             }
         },
         "FF363DC26272454516591678B7D64481592C": {
             "items": {
                 "name": "Template_SettingsStepSlider",
                 "type": "game_script",
-                "order": 23
+                "order": 11
             }
         },
         "2C275D7A83BA594AB27BA4E1E98869EA3E75": {

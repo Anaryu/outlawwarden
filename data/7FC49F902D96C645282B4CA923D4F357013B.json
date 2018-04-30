@@ -5,7 +5,7 @@
     "items": {
         "name": "Template_SettingsMenuSlider",
         "type": "game_script",
-        "order": 21,
+        "order": 10,
         "content": "ui.UiFactory.customTypes[\"ui.SettingsMenuSlider\"] = {\n    \"type\": \"ui.StackLayout\",\n    \"sizeToFit\": true,\n    \"orientation\": \"vertical\",\n    \"margin\": [10, 10, 0, 0], \n    \"controls\": [\n        { \n            \"type\": \"ui.Text\", \n            \"text\": -> p.label,\n            \"styles\": [\"regularUIText\"], \n            \"frame\": [0, 0, 200, gs.UIConstants.OPTION_BUTTON_H - 40],\n            \"margin\": [0, 0, 50, 0]\n        },\n        { \n            \"type\": \"ui.Slider\", \n            \"id\": -> p.id,\n            \"frame\": [80, 0, gs.UIConstants.LAYOUT_SETTINGS_WINDOW_W - 110, gs.UIConstants.OPTION_BUTTON_H], \n            \"params\": { \"actions\": [], \"max\": 100, \"write\": (-> p.write), \"read\": (-> p.read) } \n        }\n    ]\n}",
         "parentId": "2A0E8A67K5BAAA4D7AS9017ED220E9EFFCA7",
         "folder": false,

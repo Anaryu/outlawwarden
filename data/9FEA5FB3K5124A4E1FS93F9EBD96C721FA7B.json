@@ -219,7 +219,10 @@
                                                 "$$5101E7646B6A284EC5385FF42CC39E29BC20",
                                                 "$$9DEB76CD12AA024F65384215C8DF97C64463",
                                                 "$$757243FE807A124F5058CEA6DC72BB24F1AD",
-                                                "$$22D2BB118D79E248023904E4E5DCF459C2B2"
+                                                "$$22D2BB118D79E248023904E4E5DCF459C2B2",
+                                                "Ease Elastic",
+                                                "Ease Bounce",
+                                                "Ease Back"
                                             ],
                                             "valueFormula": "return GS.CONST.EASING_TYPES[p.easing.type]"
                                         },

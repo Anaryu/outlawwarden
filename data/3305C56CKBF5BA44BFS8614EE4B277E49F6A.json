@@ -185,35 +185,6 @@
                 "expanded": false
             },
             {
-                "id": "vn.L2DSettings",
-                "params": {
-                    "characterId": "6090E9422F115041259877862542624B0FCD",
-                    "eyeBlink": {
-                        "enabled": 0,
-                        "interval": 4000,
-                        "closedMotionTime": 50,
-                        "closingMotionTime": 100,
-                        "openingMotionTime": 150
-                    },
-                    "breathIntensity": 1,
-                    "idleIntensity": 1,
-                    "lipSyncSensitivity": 1,
-                    "fieldFlags": {
-                        "breathIntensity": 1,
-                        "idleIntensity": 1,
-                        "lipSyncSensitivity": 0,
-                        "eyeBlink.enabled": 0,
-                        "eyeBlink.interval": 1,
-                        "eyeBlink.closedMotionTime": 1,
-                        "eyeBlink.closingMotionTime": 1,
-                        "eyeBlink.openingMotionTime": 1
-                    }
-                },
-                "indent": 0,
-                "uid": "9194C7A734758543A879B05406A64A8FE6A0",
-                "expanded": false
-            },
-            {
                 "id": "vn.L2DJoinScene",
                 "params": {
                     "viewport": {
@@ -283,6 +254,14 @@
                 "indent": 0,
                 "uid": "7D37FD1A3E43704C7C383F451DD2B613BC28",
                 "expanded": false
+            },
+            {
+                "id": "gs.WaitCommand",
+                "params": {
+                    "time": 3
+                },
+                "indent": 0,
+                "uid": "A13553358AD47844D35BB72146BE69CFA4A1"
             },
             {
                 "id": "vn.L2DJoinScene",
@@ -356,6 +335,14 @@
                 "expanded": false
             },
             {
+                "id": "gs.WaitCommand",
+                "params": {
+                    "time": 5.3999999999999995
+                },
+                "indent": 0,
+                "uid": "80F8F22499CBF541536BED5793CBEBCA19E1"
+            },
+            {
                 "id": "vn.L2DJoinScene",
                 "params": {
                     "viewport": {
@@ -427,24 +414,83 @@
                 "expanded": false
             },
             {
-                "id": "vn.SetObjectData",
+                "id": "gs.WaitCommand",
                 "params": {
-                    "objectType": 4,
-                    "number": 0,
-                    "numberDomain": "com.degica.vnm.default",
-                    "layer": 0,
-                    "characterId": "6090E9422F115041259877862542624B0FCD",
-                    "field": 13,
-                    "numberValue": 0,
-                    "textValue": {
-                        "scope": 1,
-                        "index": 0,
-                        "domain": "com.degica.vnm.default"
-                    },
-                    "switchValue": 1
+                    "time": 3
                 },
                 "indent": 0,
-                "uid": "1656F51567F7C644C179D365C5941C213886"
+                "uid": "A971867C7E6CA64C2B4A0384F662AFEF2A24"
+            },
+            {
+                "id": "vn.L2DJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 12,
+                    "characterId": "9B73E04C5D50B447F06839610ED8EBB0402C",
+                    "model": {
+                        "name": "levi.model",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "zoom": {
+                            "x": 1,
+                            "y": 1,
+                            "d": 1
+                        }
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "motionBlur.enabled": 1,
+                        "origin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "751E746E86F79248FD18BD013A2F299DB441",
+                "expanded": false
             },
             {
                 "id": "gs.WaitCommand",
@@ -535,6 +581,14 @@
                 "uid": "D3CB80C379E3954BC72A2237D5338E65E21E"
             },
             {
+                "id": "gs.WaitCommand",
+                "params": {
+                    "time": 5.3999999999999995
+                },
+                "indent": 0,
+                "uid": "472C11E0889C164C733BAF44881886174D63"
+            },
+            {
                 "id": "vn.L2DMotion",
                 "params": {
                     "characterId": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
@@ -592,7 +646,7 @@
                     },
                     "message": {
                         "lcId": "9148F53A8A7CD544756BDA76529717A899CE",
-                        "defaultText": "Here we go..."
+                        "defaultText": "\"Okay, I just need to say something. I have to move my mouth for that, right?\""
                     },
                     "position": 0,
                     "characterId": "FCCF0CB04E70A9476D187099A715CFDBE589",
@@ -625,7 +679,7 @@
                     },
                     "message": {
                         "lcId": "915E42836A9DC3499949E3D5AB02DC9C6110",
-                        "defaultText": "Don't get so upset about it.{W:400} Just enjoy how my mustache is so... alive!"
+                        "defaultText": "\"Don't get so upset about it.{W:400} Just enjoy how my mustache is so... alive!\""
                     },
                     "position": 0,
                     "characterId": "6090E9422F115041259877862542624B0FCD",
@@ -639,6 +693,46 @@
                 "indent": 0,
                 "uid": "7CE822BF98E71749E17B4FE238AC4DA59A90",
                 "expanded": true
+            },
+            {
+                "id": "vn.L2DMotion",
+                "params": {
+                    "characterId": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "loop": 1,
+                    "fadeInTime": 1000,
+                    "data": {
+                        "model": {
+                            "name": "ava.model",
+                            "hue": 0,
+                            "opacity": 255,
+                            "blending": 0,
+                            "tone": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0
+                            }
+                        },
+                        "motion": "sad.mtn",
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "zoom": {
+                                "x": 1,
+                                "y": 1,
+                                "d": 1
+                            }
+                        }
+                    },
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "fadeInTime": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "C5A03F846EEC364635291F445B9BB24697C9"
             },
             {
                 "id": "gs.ShowMessage",
@@ -658,7 +752,7 @@
                     },
                     "message": {
                         "lcId": "10F6CCF893B6364F6C0B8A29CBFB771FA714",
-                        "defaultText": "So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy."
+                        "defaultText": "\"So much text in this window, it's totally crazy.{W:400} Also, is that a taco on the floor?\""
                     },
                     "position": 0,
                     "characterId": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
@@ -671,6 +765,152 @@
                 },
                 "indent": 0,
                 "uid": "2C75C3DE3BC2564E698A18A1C93AAB265327",
+                "expanded": true
+            },
+            {
+                "id": "vn.L2DMotion",
+                "params": {
+                    "characterId": "6090E9422F115041259877862542624B0FCD",
+                    "loop": 1,
+                    "fadeInTime": 1000,
+                    "data": {
+                        "model": {
+                            "name": "ava.model",
+                            "hue": 0,
+                            "opacity": 255,
+                            "blending": 0,
+                            "tone": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0
+                            }
+                        },
+                        "motion": "sad.mtn",
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "zoom": {
+                                "x": 1,
+                                "y": 1,
+                                "d": 1
+                            }
+                        }
+                    },
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "fadeInTime": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "7D47CDF382C49447AC497424FAA77BFE903A"
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "B78DB16C7DD3114A4E3B770471FD30BA2799",
+                        "defaultText": "\"What?!{W:300} Where!? I'm bloody hungry!\""
+                    },
+                    "position": 0,
+                    "characterId": "6090E9422F115041259877862542624B0FCD",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "7AA8B39201128043617912196786129CBF0C",
+                "expanded": true
+            },
+            {
+                "id": "vn.L2DMotion",
+                "params": {
+                    "characterId": "9B73E04C5D50B447F06839610ED8EBB0402C",
+                    "loop": 1,
+                    "fadeInTime": 1000,
+                    "data": {
+                        "model": {
+                            "name": "levi.model",
+                            "hue": 0,
+                            "opacity": 255,
+                            "blending": 0,
+                            "tone": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0
+                            }
+                        },
+                        "motion": "angry.mtn",
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "zoom": {
+                                "x": 1,
+                                "y": 1,
+                                "d": 1
+                            }
+                        }
+                    },
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "fadeInTime": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "A9ED2DAB35DF4143B728EA538A933E275B79"
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "AE45F8502A093146E8993485BC075B8FFA28",
+                        "defaultText": "\"I'm tired and I want to get some sleep. Why can't I sleep? I've got bags the size of a shopping cart under each eye, but no matter what I do I can't sleep.\""
+                    },
+                    "position": 0,
+                    "characterId": "9B73E04C5D50B447F06839610ED8EBB0402C",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "54E0E67221969643C62AAB65CE9EC6FC5834",
                 "expanded": true
             },
             {
@@ -731,7 +971,7 @@
                                 "blue": 0
                             }
                         },
-                        "motion": "surprised.mtn",
+                        "motion": "angry.mtn",
                         "position": {
                             "x": 0,
                             "y": 0,
@@ -784,39 +1024,6 @@
                 },
                 "indent": 0,
                 "uid": "F4B5ABF43C7BB74D601B0077CFC5BF5DC60F",
-                "expanded": true
-            },
-            {
-                "id": "gs.ShowMessage",
-                "params": {
-                    "waitForCompletion": 1,
-                    "duration": 15,
-                    "expressionId": null,
-                    "custom": {
-                        "object": {
-                            "x": 0,
-                            "y": 0,
-                            "size": {
-                                "width": 300,
-                                "height": 100
-                            }
-                        }
-                    },
-                    "message": {
-                        "lcId": "E453A3370A833142B54B93A1E7405E916B59",
-                        "defaultText": "So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy."
-                    },
-                    "position": 0,
-                    "characterId": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
-                    "partial": 0,
-                    "fieldFlags": {
-                        "duration": 1
-                    },
-                    "expressions": [],
-                    "animations": []
-                },
-                "indent": 0,
-                "uid": "5329A8A74456434D2B7970D94BD5D6092BD7",
                 "expanded": true
             },
             {
@@ -898,6 +1105,46 @@
                 },
                 "indent": 0,
                 "uid": "F25D45134E5A56414B78097423F9B3A7DBCC"
+            },
+            {
+                "id": "vn.L2DMotion",
+                "params": {
+                    "characterId": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
+                    "loop": 1,
+                    "fadeInTime": 1000,
+                    "data": {
+                        "model": {
+                            "name": "chloe.model",
+                            "hue": 0,
+                            "opacity": 255,
+                            "blending": 0,
+                            "tone": {
+                                "red": 0,
+                                "green": 0,
+                                "blue": 0
+                            }
+                        },
+                        "motion": "angry.mtn",
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "zoom": {
+                                "x": 1,
+                                "y": 1,
+                                "d": 1
+                            }
+                        }
+                    },
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "fadeInTime": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "434CB49884EC7448C449DB38377A636951CD"
             },
             {
                 "id": "gs.ShowMessage",
@@ -1866,14 +2113,14 @@
                 }
             },
             "9148F53A8A7CD544756BDA76529717A899CE": {
-                "t": "Here we go...",
+                "t": "\"Okay, I just need to say something. I have to move my mouth for that, right?\"",
                 "d": {
                     "cid": "FCCF0CB04E70A9476D187099A715CFDBE589",
                     "eid": "0BAB12A3815ED34E293AD7C05103BC920377"
                 }
             },
             "915E42836A9DC3499949E3D5AB02DC9C6110": {
-                "t": "Don't get so upset about it.{W:400} Just enjoy how my mustache is so... alive!",
+                "t": "\"Don't get so upset about it.{W:400} Just enjoy how my mustache is so... alive!\"",
                 "d": {
                     "cid": "6090E9422F115041259877862542624B0FCD",
                     "eid": "7CE822BF98E71749E17B4FE238AC4DA59A90"
@@ -1887,17 +2134,24 @@
                 }
             },
             "10F6CCF893B6364F6C0B8A29CBFB771FA714": {
-                "t": "So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy.",
+                "t": "\"So much text in this window, it's totally crazy.{W:400} Also, is that a taco on the floor?\"",
                 "d": {
                     "cid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
                     "eid": "2C75C3DE3BC2564E698A18A1C93AAB265327"
                 }
             },
-            "E453A3370A833142B54B93A1E7405E916B59": {
-                "t": "So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy. So much text in this window, it's totally crazy.",
+            "AE45F8502A093146E8993485BC075B8FFA28": {
+                "t": "\"I'm tired and I want to get some sleep. Why can't I sleep? I've got bags the size of a shopping cart under each eye, but no matter what I do I can't sleep.\"",
                 "d": {
-                    "cid": "70A98EDF778EC4466F6BC953EB49DDD83E8A",
-                    "eid": "5329A8A74456434D2B7970D94BD5D6092BD7"
+                    "cid": "9B73E04C5D50B447F06839610ED8EBB0402C",
+                    "eid": "54E0E67221969643C62AAB65CE9EC6FC5834"
+                }
+            },
+            "B78DB16C7DD3114A4E3B770471FD30BA2799": {
+                "t": "\"What?!{W:300} Where!? I'm bloody hungry!\"",
+                "d": {
+                    "cid": "6090E9422F115041259877862542624B0FCD",
+                    "eid": "7AA8B39201128043617912196786129CBF0C"
                 }
             }
         },

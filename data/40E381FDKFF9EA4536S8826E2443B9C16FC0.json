@@ -5,7 +5,7 @@
     "items": {
         "name": "Template_OptionButtonSet",
         "type": "game_script",
-        "order": 9,
+        "order": 4,
         "content": "ui.UiFactory.customTypes[\"ui.OptionButtonSet\"] = {\n    \"type\": \"ui.StackLayout\",\n    \"sizeToFit\": true,\n    \"controls\": [\n        {\n            \"type\": \"ui.OptionButton\",\n            \"params\": { \n                \"label\": (-> p.offLabel), \n                \"action\": (-> p.offAction), \n                \"read\": ($ (-> !@data.exec()), (-> p.read)),\n                \"write\": ($ ((v) -> @data.exec(!v)), (-> p.write)),\n                \"group\": (-> p.group)\n            },\n            \"margin\": [0, 0, 0, 0]\n        },\n        {\n            \"type\": \"ui.OptionButton\",\n            \"params\": { \n                \"label\": (-> p.onLabel), \n                \"action\": (-> p.onAction), \n                \"read\": ($ (-> @data.exec()), (-> p.read)),\n                \"write\": ($ ((v) -> @data.exec(v)), (-> p.write)),\n                \"group\": (-> p.group)\n            }\n        }\n    ]\n}",
         "parentId": "2A0E8A67K5BAAA4D7AS9017ED220E9EFFCA7",
         "folder": false,

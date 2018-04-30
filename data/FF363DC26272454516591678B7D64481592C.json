@@ -5,7 +5,7 @@
     "items": {
         "name": "Template_SettingsStepSlider",
         "type": "game_script",
-        "order": 23,
+        "order": 11,
         "content": "ui.UiFactory.customTypes[\"ui.SettingsStepSlider\"] = {\n    \"type\": \"ui.StackLayout\",\n    \"sizeToFit\": true,\n    \"orientation\": \"vertical\",\n    \"margin\": [10, 10, 0, 0], \n    \"controls\": [\n        { \n            \"type\": \"ui.Text\", \n            \"text\": -> p.label, \n            \"styles\": [\"regularUIText\"], \n            \"frame\": [0, 0, 350, gs.UIConstants.OPTION_BUTTON_H - 30],\n            \"margin\": [0, 0, 0, 0]\n        },\n        { \n            \"type\": \"ui.StepSlider\",\n            \"frame\": [40, 0, gs.UIConstants.LAYOUT_SETTINGS_WINDOW_W - 150, gs.UIConstants.OPTION_BUTTON_H + 30], \n            \"params\": { \"actions\": [], \"write\": (-> p.write), \"read\": (-> p.read), \"steps\": (-> p.steps ? 5), \"data\": -> p.data   } \n        }\n    ]\n}",
         "parentId": "2A0E8A67K5BAAA4D7AS9017ED220E9EFFCA7",
         "folder": false,

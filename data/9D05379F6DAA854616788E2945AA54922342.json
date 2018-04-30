@@ -5,7 +5,7 @@
     "items": {
         "name": "Template_SettingsOptionSet",
         "type": "game_script",
-        "order": 22,
+        "order": 21,
         "content": "ui.UiFactory.customTypes[\"ui.SettingsOptionSet\"] = {\n    \"type\": \"ui.StackLayout\",\n    \"sizeToFit\": true,\n    \"orientation\": \"vertical\",\n    \"margin\": [10, 10, 0, 0], \n    \"controls\": [\n        { \n            \"type\": \"ui.Text\", \n            \"text\": -> p.label, \n            \"styles\": [\"regularUIText\"], \n            \"frame\": [0, 0, 300, gs.UIConstants.OPTION_BUTTON_H - 30]\n        },\n        { \n            \"type\": \"ui.OptionButtonSet\", \n            \"frame\": [80, 0, 330, gs.UIConstants.OPTION_BUTTON_H], \n            \"params\": { \"actions\": [], \"write\": (-> p.write), \"read\": (-> p.read), \"max\": 100, \"onLabel\": (-> p.onLabel or lcsi(\"DB87E66F8299B549E56B2F048040DA406BCC\")), \"onAction\": ( -> p.onAction), \"offLabel\": (-> p.offLabel or lcsi(\"2D23328A3B4F80462E7AB2F8CD3996B20665\")), \"offAction\": (-> p.offAction), \"group\": (-> p.group) } \n        }\n    ]\n}",
         "parentId": "2A0E8A67K5BAAA4D7AS9017ED220E9EFFCA7",
         "folder": false,

@@ -2989,13 +2989,19 @@
         "path": "Live2D",
         "resources": [
             {
-                "name": "greyson.model",
+                "name": "chloe.model",
                 "type": "graphic",
                 "isa": null,
-                "_UID": 103525
+                "_UID": 103605
             },
             {
-                "name": "chloe.model",
+                "name": "levi.model",
+                "type": "graphic",
+                "isa": null,
+                "_UID": 351265
+            },
+            {
+                "name": "greyson.model",
                 "type": "graphic"
             },
             {

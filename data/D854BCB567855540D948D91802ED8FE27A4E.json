@@ -1,1 +1,79 @@
-{"uid":"D854BCB567855540D948D91802ED8FE27A4E","isLoaded":true,"lastModificationTime":null,"items":{"rawContent":"{}\n\n","name":"__TRANSLATION_HELP","type":"custom_view","parentId":"AC1ABDCBK050BA4863S9964E3DC378247DAD","order":42},"summary":["name","type"]}
+{
+    "uid": "D854BCB567855540D948D91802ED8FE27A4E",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "windowTitle": "RPG Atsumaru Upload",
+        "type": "custom_view",
+        "buttons": {
+            "accept": "$$438360578C56B444C14899A3E58FABDDC7F8",
+            "cancel": "$$P46"
+        },
+        "windowSize": {
+            "w": 400
+        },
+        "sections": [
+            {
+                "name": "Scene",
+                "noBorder": true,
+                "items": [
+                    {
+                        "type": "GSCheckBox",
+                        "text": "$$C23D3C58501EF845D5497F93C99FF9831048",
+                        "frame": [
+                            0,
+                            0
+                        ],
+                        "group": "labels"
+                    },
+                    {
+                        "type": "GSLabel",
+                        "identifier": "gameId",
+                        "text": "Game ID:",
+                        "frame": [
+                            0,
+                            1,
+                            300,
+                            -1
+                        ]
+                    },
+                    {
+                        "type": "GSButton",
+                        "identifier": "clearButton",
+                        "text": "Clear",
+                        "frame": [
+                            1,
+                            1
+                        ]
+                    },
+                    {
+                        "type": "GSLabel",
+                        "identifier": "accountId",
+                        "text": "Account ID:",
+                        "frame": [
+                            0,
+                            2
+                        ]
+                    },
+                    {
+                        "type": "GSButton",
+                        "identifier": "authButton",
+                        "text": "Authenticate",
+                        "frame": [
+                            0,
+                            3
+                        ]
+                    }
+                ]
+            }
+        ],
+        "rawContent": "{\n    \"windowTitle\": \"RPG Atsumaru Upload\",\n    \"type\": \"custom_view\",\n    \"buttons\": { \"accept\": \"$$438360578C56B444C14899A3E58FABDDC7F8\", \"cancel\": \"$$P46\" },\n    \"windowSize\": {\n        \"w\": 400\n    },\n    \"sections\": [\n        {\n            \"name\": \"Scene\",\n            \"noBorder\": true,\n            \"items\": [\n                {\n                    \"type\": \"GSCheckBox\",\n                    \"text\": \"$$C23D3C58501EF845D5497F93C99FF9831048\",\n                    \"frame\": [0, 0],\n                    \"group\": \"labels\"\n                },\n                {\n                    \"type\": \"GSLabel\",\n                    \"identifier\": \"gameId\",\n                    \"text\": \"Game ID:\",\n                    \"frame\": [0, 1, 300, -1]\n                },\n                {\n                    \"type\": \"GSButton\",\n                    \"identifier\": \"clearButton\",\n                    \"text\": \"Clear\",\n                    \"frame\": [1, 1]\n                },\n                {\n                    \"type\": \"GSLabel\",\n                    \"identifier\": \"accountId\",\n                    \"text\": \"Account ID:\",\n                    \"frame\": [0, 2]\n                },\n                {\n                    \"type\": \"GSButton\",\n                    \"identifier\": \"authButton\",\n                    \"text\": \"Authenticate\",\n                    \"frame\": [0, 3]\n                }\n            ]\n        }\n    ]\n}",
+        "name": "__TRANSLATION_HELP",
+        "parentId": "AC1ABDCBK050BA4863S9964E3DC378247DAD",
+        "order": 42
+    },
+    "summary": [
+        "name",
+        "type"
+    ]
+}

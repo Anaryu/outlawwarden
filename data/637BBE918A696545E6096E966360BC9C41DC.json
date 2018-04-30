@@ -70,7 +70,8 @@
                         "animations": []
                     },
                     "indent": 0,
-                    "expanded": true
+                    "expanded": true,
+                    "uid": "5462ED662A6DF84579097815295A3E00A8FE"
                 },
                 {
                     "id": "gs.WaitCommand",
@@ -103,7 +104,8 @@
                             "duration": 1
                         }
                     },
-                    "indent": 0
+                    "indent": 0,
+                    "uid": "096CB7679F45F748AF2A97F9B8D5F8D91B21"
                 }
             ],
             "index": "637BBE918A696545E6096E966360BC9C41DC",
